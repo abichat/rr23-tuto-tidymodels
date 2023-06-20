@@ -1,0 +1,1340 @@
+cupper_points,aroma,flavor,aftertaste,acidity,sweetness,species,country_of_origin,variety,processing_method,color,altitude,unit
+8.75,8.67,8.83,8.67,8.75,10,Arabica,Ethiopia,NA,Washed / Wet,Green,2075,m
+8.58,8.75,8.67,8.5,8.58,10,Arabica,Ethiopia,Other,Washed / Wet,Green,2075,m
+9.25,8.42,8.5,8.42,8.42,10,Arabica,Guatemala,Bourbon,NA,NA,1700,m
+8.67,8.17,8.58,8.42,8.42,10,Arabica,Ethiopia,NA,Natural / Dry,Green,2000,m
+8.58,8.25,8.5,8.25,8.5,10,Arabica,Ethiopia,Other,Washed / Wet,Green,2075,m
+8.33,8.58,8.42,8.42,8.5,10,Arabica,Brazil,NA,Natural / Dry,Bluish-Green,NA,m
+8.5,8.42,8.5,8.33,8.5,10,Arabica,Peru,Other,Washed / Wet,Bluish-Green,NA,m
+9,8.25,8.33,8.5,8.42,9.33,Arabica,Ethiopia,NA,NA,NA,1635,m
+8.67,8.67,8.67,8.58,8.42,9.33,Arabica,Ethiopia,NA,NA,NA,1635,m
+8.5,8.08,8.58,8.5,8.5,10,Arabica,Ethiopia,Other,Natural / Dry,Green,1822.5,m
+8.58,8.17,8.67,8.25,8.5,10,Arabica,Ethiopia,NA,Natural / Dry,NA,1905,m
+8.5,8.25,8.42,8.17,8.33,10,Arabica,United States,Other,Washed / Wet,NA,1872,m
+8.33,8.08,8.67,8.33,8.42,10,Arabica,United States,Other,Washed / Wet,NA,1943,m
+8.58,8.33,8.42,8.08,8.25,10,Arabica,United States (Hawaii),NA,NA,NA,609.6,ft
+8.5,8.25,8.33,8.5,8.25,9.33,Arabica,Ethiopia,NA,NA,NA,1635,m
+8.17,8,8.5,8.58,8.17,10,Arabica,United States,Other,Washed / Wet,NA,2080,m
+8.33,8.33,8.25,7.83,7.75,10,Arabica,Indonesia,NA,NA,NA,1500,m
+8.83,8.17,8.33,8.25,8.33,9.33,Arabica,Ethiopia,NA,NA,NA,NA,m
+8.42,8.42,8.25,8.08,8.17,10,Arabica,China,Catimor,Washed / Wet,Green,1450,m
+8.33,8.17,8.17,8,8.17,10,Arabica,Ethiopia,Ethiopian Yirgacheffe,Natural / Dry,NA,1850,m
+8.17,8,8.25,8.08,8.5,10,Arabica,United States,Other,Washed / Wet,None,2019,m
+8.33,8.08,8.25,8,8.17,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1300,m
+8.58,8.17,8.25,8.17,8,10,Arabica,Mexico,Other,Washed / Wet,Green,1320,m
+8.17,8.25,8.33,8.17,8.17,10,Arabica,United States,Other,Washed / Wet,NA,2112,m
+8.08,8.42,8.17,7.92,8.17,10,Arabica,Ethiopia,NA,Natural / Dry,Bluish-Green,NA,m
+7.92,8.5,8.5,8,8,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1250,m
+8.25,7.83,8.25,8.08,8.17,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+8.17,8.42,8.17,8.17,8.17,10,Arabica,Uganda,SL14,Washed / Wet,Green,1950,m
+8.25,8.17,8.08,8.08,8,10,Arabica,Honduras,Caturra,NA,Green,1400,m
+8.17,8,8,8,8.25,10,Arabica,Taiwan,Sumatra,Pulped natural / honey,Green,1200,m
+8,7.92,8.25,8,8.33,10,Arabica,Nicaragua,NA,NA,NA,NA,m
+8.17,8.42,8.17,8.17,8,10,Arabica,"Tanzania, United Republic Of",NA,Natural / Dry,Bluish-Green,NA,m
+8,8.5,8.17,8,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1300,m
+8.42,8.17,7.83,8,8.08,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1300,m
+8.08,8,8.08,7.92,8,10,Arabica,Ethiopia,NA,Natural / Dry,Green,1775,m
+8.08,8.08,8,8,8.25,10,Arabica,Kenya,SL34,Washed / Wet,Blue-Green,1800,m
+8.33,8.08,8.17,8,7.92,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+8.25,8.25,8.42,8.08,7.75,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+8.17,7.92,7.75,8.08,8.08,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+8.08,7.67,8.17,8,8,10,Arabica,United States,Other,Washed / Wet,NA,1941,m
+8.42,7.83,8.33,7.83,8.25,10,Arabica,Thailand,Caturra,Washed / Wet,Green,1300,m
+8.08,8.17,7.92,7.92,7.75,10,Arabica,Brazil,Yellow Bourbon,NA,NA,12,m
+8.17,8.42,7.92,8,7.75,10,Arabica,Brazil,Yellow Bourbon,NA,NA,12,m
+8.42,8.08,8.17,7.75,8.08,10,Arabica,Taiwan,Bourbon,Semi-washed / Semi-pulped,Green,1000,m
+8,8.08,8.08,8,8,10,Arabica,Kenya,SL28,Natural / Dry,Bluish-Green,1754,m
+8,8.33,8,8,8,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Blue-Green,1250,m
+8.08,8.08,8.08,7.83,7.92,10,Arabica,Uganda,NA,Semi-washed / Semi-pulped,NA,NA,m
+8.17,7.75,7.92,7.83,8.08,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1200,m
+8.17,7.92,8.17,7.83,8.5,10,Arabica,Kenya,SL28,Washed / Wet,Green,1860,m
+7.92,8.25,8,7.83,8.08,10,Arabica,Uganda,Other,Washed / Wet,Blue-Green,1650,m
+7.92,7.75,8.08,8,8.25,10,Arabica,Ethiopia,NA,NA,NA,1750,m
+8.17,8.33,8.17,7.75,8,10,Arabica,United States (Hawaii),NA,NA,NA,426.72,ft
+8,7.92,8.08,7.92,8.08,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+8,8.17,8.17,7.92,8.08,10,Arabica,Uganda,SL14,Natural / Dry,Green,1650,m
+7.92,8,8,8,8.17,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1800,m
+8,8,8,7.92,8.08,10,Arabica,Panama,Gesha,Washed / Wet,Bluish-Green,1600,m
+8,7.83,8.08,7.92,8.08,10,Arabica,Ethiopia,NA,Washed / Wet,Green,1900,m
+8,7.83,8,8,8.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1524,ft
+8,8,8,7.83,8.33,10,Arabica,Guatemala,Catuai,Washed / Wet,Bluish-Green,1417.32,ft
+8,7.83,8,7.83,8.17,10,Arabica,Ethiopia,Caturra,Natural / Dry,None,NA,m
+8,8,8,8,8.08,10,Arabica,Peru,NA,Washed / Wet,Green,NA,m
+7.92,8.33,8.42,7.83,8.33,10,Arabica,Papua New Guinea,NA,Washed / Wet,Bluish-Green,1700,m
+8,7.92,8.17,8,7.92,10,Arabica,El Salvador,Bourbon,Washed / Wet,Blue-Green,1500,m
+7.92,7.83,8,8,7.75,10,Arabica,El Salvador,Bourbon,Semi-washed / Semi-pulped,None,1350,m
+8,7.83,8,7.92,7.75,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+7.83,8,7.75,7.83,7.83,10,Arabica,Panama,Caturra,Natural / Dry,NA,1680,m
+8,7.92,7.92,7.83,8.08,10,Arabica,Kenya,SL28,Natural / Dry,Green,1900,m
+8,7.83,8,7.83,7.92,10,Arabica,Ethiopia,Other,Natural / Dry,Green,1900,m
+8.08,8.33,7.92,7.67,7.92,10,Arabica,Uganda,SL14,Washed / Wet,Green,1600,m
+7.83,8,7.83,7.67,8.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1731.264,ft
+8.08,7.75,7.83,7.83,8.17,10,Arabica,Ethiopia,NA,Washed / Wet,Green,1900,m
+8,8.08,8,7.83,7.67,10,Arabica,Uganda,SL14,Washed / Wet,Green,1950,m
+8.25,7.92,7.92,7.75,7.92,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+8,8,8,8,7.67,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Blue-Green,1250,m
+7.92,8.08,7.83,7.83,8.08,10,Arabica,El Salvador,NA,NA,NA,1400,m
+7.92,8,8,8,7.83,10,Arabica,China,Catimor,Natural / Dry,Green,1700,m
+7.83,7.83,7.75,7.83,7.67,10,Arabica,Guatemala,Pacamara,Natural / Dry,Green,1770,m
+8,7.92,8.08,8,7.92,9.33,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1300,m
+7.92,8,7.58,7.58,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1300,m
+7.92,7.83,8.08,7.75,8.08,10,Arabica,Kenya,SL34,Washed / Wet,Green,1600,m
+7.83,8,7.92,7.92,8.08,10,Arabica,Kenya,SL34,Washed / Wet,Green,1200,m
+8.08,7.83,7.83,7.92,8.08,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+8,7.92,7.83,7.75,8.33,10,Arabica,Ethiopia,Typica,NA,NA,NA,m
+7.83,8,7.92,7.75,8,10,Arabica,Guatemala,Bourbon,NA,Green,NA,m
+7.92,8.17,7.92,7.83,8,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1550,m
+7.92,7.58,8.08,7.92,7.83,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1550,m
+8,7.75,7.83,7.67,8,10,Arabica,Indonesia,Sumatra Lintong,Semi-washed / Semi-pulped,Green,1325,m
+7.92,8.25,8,7.67,7.92,10,Arabica,Guatemala,Caturra,Washed / Wet,NA,1400,m
+7.83,7.75,8,7.58,8,10,Arabica,Ethiopia,Other,Natural / Dry,Green,NA,m
+7.67,8.17,7.83,7.58,8.08,10,Arabica,Colombia,Caturra,Natural / Dry,NA,2560,m
+8.08,8.42,8,7.42,8,10,Arabica,Ethiopia,NA,Natural / Dry,Green,1700,m
+7.92,7.58,7.83,7.83,7.92,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+8.08,7.83,8,7.75,7.75,10,Arabica,Colombia,Caturra,Natural / Dry,Green,2136,m
+8.17,8.08,8.17,7.92,8,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.83,7.67,8,7.83,8,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+7.92,7.5,7.92,8.25,7.83,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+8,8.17,7.92,7.75,7.75,10,Arabica,Uganda,SL14,Washed / Wet,Green,1800,m
+7.83,8,7.92,7.75,7.92,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.92,7.83,8,7.58,7.92,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1900,m
+8.08,7.83,8,7.83,7.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.83,8.17,7.83,7.92,7.75,10,Arabica,Kenya,NA,Washed / Wet,Green,1,m
+7.83,7.75,7.83,7.75,8.08,10,Arabica,Kenya,SL34,Washed / Wet,Green,1580,m
+8,8,8,7.83,7.83,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1100,m
+7.83,7.92,8.17,7.75,8.08,10,Arabica,Mexico,Pacamara,NA,NA,1400,m
+7.83,7.75,7.92,7.75,7.75,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+8,7.83,8.08,7.67,8,10,Arabica,Guatemala,NA,NA,NA,1325.88,ft
+7.83,7.92,7.92,7.67,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,NA,NA,m
+7.83,7.92,7.83,7.75,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.92,7.67,7.83,8,7.58,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,800,m
+7.83,8,7.83,7.83,7.92,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1620,m
+7.92,7.75,7.92,7.83,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+8.17,7.75,8,7.75,7.83,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,NA,1200,m
+7.75,8,7.92,7.75,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1200,m
+7.92,8,8,7.75,8,10,Arabica,Brazil,Catuai,Natural / Dry,Green,1000,m
+7.58,8,7.67,7.83,8.17,10,Arabica,Kenya,NA,NA,NA,NA,m
+8,7.92,7.58,7.83,7.83,10,Arabica,Taiwan,Typica,Natural / Dry,Green,350,m
+7.83,7.75,7.92,7.67,7.67,10,Arabica,Uganda,SL14,Natural / Dry,Green,1650,m
+8.08,7.67,7.75,7.75,7.75,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+8,7.75,7.92,7.83,7.92,10,Arabica,Ethiopia,NA,NA,NA,1750,m
+7.92,7.42,7.92,7.92,8,10,Arabica,Ethiopia,NA,NA,NA,1750,m
+8,7.75,7.75,7.75,7.75,10,Arabica,Thailand,Caturra,Pulped natural / honey,Green,NA,m
+7.92,7.92,7.83,7.58,7.92,10,Arabica,Kenya,SL34,Washed / Wet,Green,1800,m
+8.17,7.83,7.75,8,7.67,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1450,m
+7.75,7.75,8,8,8.33,9.33,Arabica,El Salvador,NA,NA,NA,1200,m
+8.5,7.83,7.58,7.58,7.83,10,Arabica,Nicaragua,NA,NA,NA,925,m
+8,7.83,7.83,7.5,8,10,Arabica,El Salvador,Bourbon,Washed / Wet,Blue-Green,1350,m
+7.92,7.92,7.83,7.75,7.75,10,Arabica,Indonesia,Java,Washed / Wet,Green,1200,m
+8.08,7.75,7.75,7.75,7.42,10,Arabica,Japan,Mundo Novo,Pulped natural / honey,Green,170,m
+7.92,8.08,7.75,7.67,7.83,10,Arabica,Costa Rica,Catuai,Washed / Wet,Blue-Green,1150,m
+7.83,7.75,7.83,7.58,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1600,m
+7.92,8.17,8,7.83,7.17,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1750,m
+7.92,8.08,7.83,7.75,7.83,10,Arabica,Ethiopia,Ethiopian Yirgacheffe,Washed / Wet,NA,1900,m
+7.67,7.67,7.58,7.75,7.75,10,Arabica,Costa Rica,Other,Other,Green,1750,m
+8,8,7.58,7.83,7.75,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1200,m
+7.92,8.08,7.83,7.75,7.83,9.33,Arabica,Costa Rica,NA,Washed / Wet,Green,NA,m
+7.75,8,7.92,7.75,7.75,10,Arabica,Taiwan,Typica,Washed / Wet,Green,1000,m
+7.92,7.75,7.83,7.75,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1550,m
+7.83,7.75,7.92,7.83,8,10,Arabica,Kenya,SL28,Washed / Wet,Bluish-Green,2000,m
+7.67,8,7.83,7.67,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+8,7.67,7.83,7.67,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1524,ft
+7.92,7.83,7.58,7.67,7.92,10,Arabica,Mexico,Typica,Washed / Wet,NA,1200,m
+7.83,7.92,7.83,7.75,7.92,10,Arabica,Uganda,Other,Washed / Wet,Blue-Green,1775,m
+7.92,7.67,7.83,7.75,7.75,10,Arabica,Peru,NA,NA,NA,NA,m
+7.83,7.42,7.75,7.75,8,10,Arabica,Ethiopia,NA,NA,NA,1750,m
+7.83,7.92,7.75,7.83,7.75,10,Arabica,Kenya,SL34,Washed / Wet,Blue-Green,1754,m
+8.08,7.83,7.67,7.58,7.92,10,Arabica,Colombia,Other,Washed / Wet,Blue-Green,1500,m
+7.75,7.92,7.83,7.58,8,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.92,7.83,7.83,7.83,7.75,10,Arabica,Kenya,Peaberry,Washed / Wet,Bluish-Green,1800,m
+7.83,7.75,7.83,7.67,7.92,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,1524,ft
+8.17,8,7.92,7.67,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.83,7.67,7.67,7.58,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1550,m
+7.92,7.75,7.75,7.83,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1750,m
+7.75,7.75,7.75,7.75,8.08,10,Arabica,Kenya,SL28,Washed / Wet,Green,NA,m
+7.75,7.67,7.83,7.83,8,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.75,7.75,7.83,7.75,8,10,Arabica,Costa Rica,Bourbon,Semi-washed / Semi-pulped,Bluish-Green,1575,m
+8.08,7.42,7.67,7.75,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1800,m
+7.75,8,8,7.75,7.75,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Green,1300,m
+7.5,8.5,8,7.5,7.75,10,Arabica,Brazil,Catuai,Semi-washed / Semi-pulped,Blue-Green,1100,m
+8,7.92,7.67,7.92,7.75,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1200,m
+7.83,7.92,7.75,7.67,7.75,10,Arabica,Uganda,SL14,Washed / Wet,Green,1750,m
+7.92,7.75,7.92,7.67,7.83,10,Arabica,China,Catimor,Washed / Wet,Green,1680,m
+7.92,7.92,7.83,7.83,7.83,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1700,m
+7.75,8.08,7.67,7.83,7.83,10,Arabica,Colombia,Other,Washed / Wet,Green,1800,m
+7.92,7.67,8,7.75,7.83,10,Arabica,China,Other,Washed / Wet,Green,1100,m
+7.5,8.17,7.83,7.67,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.67,7.92,7.83,7.67,8,10,Arabica,Kenya,SL28,Washed / Wet,Blue-Green,2000,m
+7.92,8,7.92,7.42,8.08,10,Arabica,Mexico,Typica,Washed / Wet,Green,1350,m
+7.67,7.92,7.83,7.75,7.75,10,Arabica,Mexico,Typica,Washed / Wet,NA,1500,m
+7.83,7.67,8,7.67,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+8.13,7.81,7.81,7.88,7.75,10,Arabica,Brazil,NA,NA,NA,NA,m
+7.75,8.17,7.67,7.75,7.75,10,Arabica,Brazil,NA,NA,NA,NA,m
+7.92,7.58,7.83,7.83,8,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1300,m
+8,7.67,7.67,7.83,7.58,10,Arabica,Indonesia,Mandheling,Other,Blue-Green,1400,m
+7.67,7.92,7.83,7.75,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,NA,m
+7.75,7.92,7.75,7.67,7.92,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.75,7.83,7.83,7.75,8,10,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,1200,m
+7.83,7.92,7.92,7.5,7.83,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Blue-Green,NA,ft
+7.83,7.75,7.92,7.75,7.67,10,Arabica,Mexico,Pacamara,Washed / Wet,NA,900,m
+7.75,7.5,7.75,7.83,7.92,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+8.17,7.33,7.58,7.83,7.75,10,Arabica,Kenya,SL28,Washed / Wet,Green,1800,m
+7.58,7.92,8,7.75,7.67,10,Arabica,Honduras,Caturra,NA,Green,1500,m
+7.5,7.58,7.75,7.5,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.83,7.58,7.92,7.58,7.75,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1500,m
+7.83,7.67,7.67,7.75,7.83,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.33,7.75,7.67,8,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+8.17,7.75,7.58,7.33,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1800,m
+7.83,8,7.75,7.75,7.83,10,Arabica,Mexico,Typica,Washed / Wet,Blue-Green,1700,m
+7.75,8.17,8,7.5,7.75,10,Arabica,Brazil,Yellow Bourbon,NA,NA,1275,m
+7.92,8,8,7.5,7.5,10,Arabica,Brazil,NA,NA,NA,1050,m
+7.75,7.75,7.75,7.92,7.75,10,Arabica,Ethiopia,NA,NA,NA,1493.52,ft
+7.92,7.5,7.67,7.75,7.67,10,Arabica,Guatemala,NA,NA,NA,1386.84,ft
+7.67,7.92,7.75,7.75,7.67,10,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,1000,m
+8,7.83,7.75,7.75,7.42,10,Arabica,Thailand,Catimor,Natural / Dry,Green,1200,m
+7.83,7.83,7.58,7.75,7.58,10,Arabica,Colombia,Caturra,Natural / Dry,Green,2560,m
+7.75,7.75,7.75,7.58,7.92,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7.75,7.75,7.92,7.5,8.08,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1099.4136,ft
+7.75,7.83,7.83,7.58,7.75,10,Arabica,China,Catimor,Natural / Dry,Green,1400,m
+7.83,7.67,7.67,7.75,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.75,7.83,7.67,7.75,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.83,7.83,7.75,7.83,7.58,10,Arabica,Colombia,Other,Washed / Wet,Green,1800,m
+7.83,7.42,7.67,7.83,7.75,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+7.83,7.83,7.67,7.75,7.83,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1620,m
+7.75,7.83,7.75,7.75,7.75,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1600,m
+7.83,7.83,7.83,7.5,7.92,10,Arabica,Guatemala,Bourbon,Other,Green,1219.2,ft
+7.83,7.58,7.5,7.75,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1700,m
+7.83,7.33,7.92,7.92,7.92,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.75,7.83,7.92,7.67,7.83,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1450,m
+7.75,7.83,7.83,7.75,7.67,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1170,m
+7.83,7.83,7.92,7.67,7.75,10,Arabica,Mexico,Bourbon,Washed / Wet,Bluish-Green,1400,m
+7.67,8.17,7.75,7.58,7.67,10,Arabica,Uganda,Other,Natural / Dry,Green,1700,m
+7.75,7.75,7.83,7.58,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.75,7.83,7.75,7.58,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+8,7.92,7.75,7.67,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1700,m
+7.58,7.75,7.75,7.58,8,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1116.7872,ft
+7.67,7.75,7.92,7.58,7.92,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1565,m
+7.83,7.58,7.83,7.58,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,3280,m
+7.67,8,7.5,7.5,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1775,m
+7.83,7.67,7.83,7.83,7.5,10,Arabica,Nicaragua,Caturra,Natural / Dry,Bluish-Green,1000,m
+7.75,7.67,7.75,7.75,7.67,10,Arabica,Brazil,Catuai,Natural / Dry,NA,1150,m
+7.83,7.67,7.75,7.67,7.75,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1850,m
+7.75,7.5,7.92,7.58,7.83,10,Arabica,Ethiopia,Gesha,Natural / Dry,Green,1606.5,m
+7.67,7.92,7.75,7.75,7.75,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1400,m
+7.5,7.67,7.5,7.67,7.42,10,Arabica,Colombia,Other,Washed / Wet,Green,1530,m
+7.83,7.67,7.75,7.67,7.75,10,Arabica,Guatemala,NA,Washed / Wet,Bluish-Green,NA,m
+7.75,7.58,7.75,7.75,7.75,10,Arabica,Kenya,SL28,Washed / Wet,Green,250.5,m
+7.67,7.58,7.83,7.75,7.67,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1038.5,m
+7.42,7.92,7.75,7.67,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.92,8.42,8.08,7.5,7.17,10,Arabica,El Salvador,Bourbon,Natural / Dry,Bluish-Green,1500,m
+7.58,7.75,7.75,7.75,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.67,7.83,7.5,7.5,8,10,Arabica,Guatemala,Catuai,Natural / Dry,Bluish-Green,NA,m
+7.67,7.83,7.75,7.5,7.83,10,Arabica,Uganda,Other,Washed / Wet,Green,1600,m
+7.75,7.81,7.88,7.56,7.75,10,Arabica,Indonesia,Mandheling,Natural / Dry,Bluish-Green,NA,m
+7.5,7.83,7.5,7.42,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,442,m
+7.92,7.58,7.67,7.67,7.67,10,Arabica,Taiwan,Typica,Washed / Wet,Bluish-Green,968,m
+7.67,8,7.75,7.5,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.67,7.92,7.75,7.67,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1775,m
+7.67,7.58,7.75,7.67,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Bluish-Green,1550,m
+8,7.83,7.75,7.83,7.83,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.83,7.67,7.75,7.67,7.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,1480,m
+7.92,7.92,7.92,7.83,8,8.67,Arabica,Ethiopia,Other,Natural / Dry,NA,1800,m
+7.67,7.58,7.75,7.67,7.75,10,Arabica,Costa Rica,NA,Washed / Wet,None,NA,m
+7.92,7.83,7.75,7.67,7.75,10,Arabica,Ethiopia,Gesha,Natural / Dry,Green,1800,m
+7.75,7.42,7.83,7.75,7.92,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1500,m
+7.58,7.67,7.83,7.58,7.92,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1706.88,ft
+7.83,7.67,7.67,7.83,7.58,10,Arabica,Colombia,Other,Washed / Wet,Green,1600,m
+7.5,7.92,7.67,7.42,7.92,10,Arabica,Guatemala,Bourbon,Natural / Dry,Green,1219.2,ft
+7.83,7.75,7.83,7.5,7.83,10,Arabica,Guatemala,Bourbon,Other,Green,1219.2,ft
+7.83,7.67,7.75,7.67,7.67,10,Arabica,Colombia,NA,Washed / Wet,Green,1480,m
+7.67,7.58,7.42,7.75,7.92,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1450,m
+8.33,7.67,7.67,7.5,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.83,7.75,7.75,7.5,7.58,10,Arabica,Ethiopia,Other,Natural / Dry,Green,1550,m
+7.92,7.58,7.83,7.67,7.25,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1260,m
+7.67,7.67,7.83,7.67,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1700,m
+7.67,7.67,7.83,7.5,7.75,10,Arabica,Kenya,SL34,Washed / Wet,Green,1200,m
+8.42,7.92,8.17,8.17,8.42,9.33,Arabica,Thailand,Other,Washed / Wet,Green,NA,m
+7.67,7.67,7.75,7.67,7.75,10,Arabica,Kenya,SL28,Washed / Wet,Bluish-Green,1650,m
+7.58,7.92,7.75,7.58,7.67,10,Arabica,Uganda,Other,Washed / Wet,Green,1700,m
+8,7.58,7.75,7.58,7.75,10,Arabica,Thailand,NA,NA,NA,NA,m
+8.5,7.5,7.75,7.58,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.83,7.83,7.83,7.58,7.92,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1300,m
+7.83,7.67,7.75,7.5,7.67,10,Arabica,Thailand,Catimor,Natural / Dry,Bluish-Green,1350,m
+7.83,7.58,7.67,7.67,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,934,m
+7.83,7.83,7.75,7.83,7.75,10,Arabica,Taiwan,Typica,Washed / Wet,Green,1200,m
+7.67,7.75,7.67,7.5,7.75,10,Arabica,Colombia,NA,NA,Green,442,m
+7.58,7.75,7.58,7.5,7.83,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.67,7.75,7.75,7.58,7.75,10,Arabica,Taiwan,NA,Natural / Dry,Blue-Green,NA,m
+7.75,7.92,7.67,7.5,7.83,10,Arabica,Colombia,NA,Washed / Wet,NA,NA,m
+7.67,7.83,7.75,7.58,7.58,10,Arabica,Colombia,NA,Washed / Wet,None,NA,m
+7.58,7.75,7.58,7.67,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.17,8,7.92,7.92,7.92,10,Arabica,Taiwan,Typica,Washed / Wet,Green,950,m
+7.5,7.67,7.83,7.67,7.75,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1550,m
+7.67,7.67,7.75,7.58,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Blue-Green,900,m
+7.83,7.5,7.67,7.58,7.83,10,Arabica,Mexico,Typica,Washed / Wet,NA,1500,m
+7.75,7.75,7.92,7.83,7.92,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.75,7.92,7.58,7.5,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,2527,m
+7.58,7.83,7.67,7.5,7.75,10,Arabica,Colombia,Caturra,NA,Green,NA,m
+7.83,7.67,7.67,7.75,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1850,m
+7.67,7.75,7.75,7.5,7.75,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.75,7.75,7.67,7.5,7.75,10,Arabica,Taiwan,NA,NA,NA,1200,m
+8,7.25,7.58,7.42,8,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.83,7.67,7.75,7.67,7.75,10,Arabica,Taiwan,Typica,Washed / Wet,Green,525,m
+7.75,7.75,7.75,7.67,7.67,10,Arabica,Ethiopia,NA,Natural / Dry,Green,1676.5,m
+8.08,7.67,7.67,7.58,7.5,9.33,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Green,1200,m
+7.67,7.83,7.42,7.5,7.83,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1300,m
+7.75,7.58,7.83,7.33,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.75,7.92,7.5,7.33,7.67,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1260,m
+7.67,7.5,7.67,7.58,7.75,10,Arabica,Ecuador,NA,Natural / Dry,Bluish-Green,800,m
+7.92,7.67,7.58,7.58,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.67,7.5,7.83,7.5,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.92,7.67,8,7.67,7.42,10,Arabica,Mexico,Bourbon,Natural / Dry,Green,1218,m
+7.83,7.67,7.58,7.5,7.75,10,Arabica,Mexico,Pacas,Natural / Dry,NA,1300,m
+7.83,7.83,7.83,7.58,7.67,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Green,1250,m
+7.5,7.75,7.75,7.58,8,10,Arabica,Thailand,NA,NA,NA,1499.9208,ft
+7.75,7.5,7.83,7.58,7.58,10,Arabica,Thailand,NA,NA,NA,NA,m
+7.5,7.58,7.83,7.58,8,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+7.83,7.75,7.58,7.5,7.58,10,Arabica,Kenya,SL28,Washed / Wet,Green,1800,m
+7.75,7.67,7.67,7.58,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.75,7.83,7.83,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,442,m
+7.75,7.67,7.67,7.58,7.58,10,Arabica,Taiwan,Typica,Natural / Dry,Green,750,m
+7.67,7.92,7.75,7.5,7.67,10,Arabica,Colombia,NA,Washed / Wet,Green,NA,m
+7.75,7.83,7.75,7.67,7.5,10,Arabica,China,Catimor,Washed / Wet,Green,1650,m
+7.75,7.75,7.67,7.5,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+7.67,8,7.92,7.58,7.75,10,Arabica,Uganda,Bourbon,Natural / Dry,Green,1400,m
+7.75,7.83,7.83,7.83,7.67,10,Arabica,United States (Puerto Rico),Other,Washed / Wet,Green,853.44,ft
+7.67,7.67,7.67,7.67,7.92,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.5,7.67,7.42,7.42,7.42,10,Arabica,Colombia,Other,Washed / Wet,Green,1550,m
+7.75,7.58,7.67,7.75,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1750,m
+7.58,7.75,7.67,7.75,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.75,7.25,7.42,7.67,7.58,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.83,7.83,7.58,7.58,7.5,10,Arabica,Mexico,Caturra,Natural / Dry,None,700,m
+7.75,7.67,7.58,7.58,7.67,10,Arabica,Guatemala,Caturra,Washed / Wet,Bluish-Green,1300,m
+8.08,7.83,7.83,7.58,7.33,10,Arabica,Colombia,NA,NA,NA,1600,m
+7.75,7.75,7.67,7.25,7.25,10,Arabica,Colombia,NA,NA,NA,1600,m
+7.75,7.83,7.67,7.75,7.67,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.83,7.67,7.83,7.5,7.67,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.75,8.08,7.67,7.67,7.58,10,Arabica,Kenya,SL28,Washed / Wet,Bluish-Green,1700,m
+7.33,7.5,7.5,7.67,7.67,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.5,7.67,7.75,7.67,7.67,10,Arabica,Nicaragua,Caturra,Washed / Wet,Green,1250,m
+7.83,7.58,7.75,7.58,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,934,m
+7.75,7.5,7.67,7.33,7.92,10,Arabica,Taiwan,Caturra,Natural / Dry,Bluish-Green,1200,m
+8.33,7.33,7.67,7.67,7.5,10,Arabica,Costa Rica,NA,NA,Blue-Green,1350,m
+7.75,7.5,7.75,7.58,7.83,10,Arabica,Thailand,NA,Washed / Wet,Bluish-Green,800,m
+7.83,7.5,7.75,7.5,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1625,m
+7.5,8,7.5,7.33,8,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1356.6648,ft
+7.58,7.83,7.75,7.67,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.92,7.67,7.67,7.67,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1900,m
+7.5,7.67,7.67,7.42,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.67,7.83,7.67,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.83,7.75,7.75,7.58,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+8,8.17,8.17,7.83,7.67,9.33,Arabica,Guatemala,Caturra,Natural / Dry,Green,1450,m
+7.5,7.67,8.17,7.5,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.58,7.67,7.5,7.5,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.58,8.17,7.67,7.58,7.58,10,Arabica,Indonesia,Typica,Washed / Wet,Green,1400,m
+7.83,7.67,7.5,7.33,8,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1524,ft
+8.17,7.75,8,7.92,8.08,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.92,7.58,7.67,7.58,7.58,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.58,7.75,7.75,7.5,7.83,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1128.3696,ft
+7.67,7.75,7.75,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.75,7.67,7.58,7.58,7.58,10,Arabica,China,Catimor,Washed / Wet,Green,1100,m
+7.58,7.67,7.75,7.58,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.75,7.75,7.75,7.58,7.58,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1200,m
+7.75,7.75,7.67,7.58,7.67,10,Arabica,Ethiopia,Other,Washed / Wet,NA,1850,m
+7.67,7.67,7.67,7.42,7.75,10,Arabica,Uganda,SL14,Washed / Wet,Green,1800,m
+7.67,7.67,7.58,7.67,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1600,m
+7.67,7.67,7.58,7.67,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1550,m
+7.58,7.75,7.58,7.5,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1550,m
+7.5,7.75,7.75,7.75,7.75,10,Arabica,Taiwan,Typica,Other,Green,1000,m
+7.67,7.67,7.67,7.58,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.67,7.83,7.67,7.58,7.58,10,Arabica,Mexico,Typica,Washed / Wet,NA,1000,m
+7.75,7.67,7.58,7.58,7.58,10,Arabica,Colombia,Caturra,Natural / Dry,Green,2136,m
+7.67,7.83,7.75,7.5,7.75,10,Arabica,Brazil,Catuai,Semi-washed / Semi-pulped,Blue-Green,1100,m
+7.58,7.75,7.58,7.58,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1799,m
+10,7.58,7.58,7.17,7.17,10,Arabica,Taiwan,NA,NA,Blue-Green,NA,m
+7.83,7.92,7.42,7.5,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1850,m
+7.58,7.75,7.58,7.58,7.5,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1000,m
+7.58,7.67,7.75,7.5,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Bluish-Green,1219.2,ft
+7.75,7.58,7.58,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.75,7.67,7.58,7.67,10,Arabica,"Tanzania, United Republic Of",Ruiru 11,Washed / Wet,Green,1400,m
+7.67,7.25,7.67,7.58,7.92,10,Arabica,Indonesia,Sumatra,Semi-washed / Semi-pulped,Bluish-Green,1500,m
+7.58,7.67,7.75,7.5,7.58,10,Arabica,Ethiopia,NA,Natural / Dry,NA,1600,m
+7.67,7.67,7.42,7.67,7.83,10,Arabica,Colombia,NA,Washed / Wet,NA,NA,m
+7.58,8,7.58,7.25,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1850,m
+7.75,7.58,7.75,7.5,7.83,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1400,m
+7.67,7.75,7.58,7.33,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1650,m
+7.83,7.67,7.5,7.67,7.5,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1350,m
+7.67,7.58,7.75,7.42,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.58,7.58,7.67,7.58,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+8.42,7.83,7.58,7.25,7.5,10,Arabica,Mexico,Bourbon,Natural / Dry,Green,1170,m
+7.58,7.67,7.75,7.67,7.75,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,940,m
+7.83,7.75,7.67,7.67,7.75,10,Arabica,Mexico,Pacamara,Washed / Wet,Green,1400,m
+7.5,7.83,7.5,7.5,8,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1524,ft
+7.67,7.67,7.58,7.58,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.5,7.5,7.75,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1402.08,ft
+7.58,7.5,7.67,7.58,7.92,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.58,7.83,7.58,7.58,7.58,10,Arabica,Indonesia,NA,NA,NA,1600,m
+7.67,7.5,7.58,7.58,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,439,m
+7.67,7.67,7.75,7.5,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.67,7.67,7.67,7.5,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,442,m
+7.83,7.58,7.5,7.42,7.92,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1850,m
+10,7.67,7.67,7,7.08,10,Arabica,Taiwan,NA,NA,Blue-Green,NA,m
+7.75,7.58,7.75,7.33,7.75,10,Arabica,Uganda,SL14,Washed / Wet,Green,1800,m
+7.67,7.5,7.58,7.75,7.5,10,Arabica,Thailand,Catimor,Washed / Wet,Bluish-Green,1200,m
+7.58,7.58,7.5,7.75,7.58,10,Arabica,El Salvador,Bourbon,Washed / Wet,NA,1330,m
+7.67,7.58,7.67,7.58,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+7.75,7.33,7.83,7.75,7.5,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Green,NA,m
+7.58,7.75,7.67,7.58,7.67,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1600,m
+7.58,7.58,7.58,7.25,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1813,m
+7.5,7.75,7.83,7.33,7.83,10,Arabica,Guatemala,Bourbon,Natural / Dry,Green,1219.2,ft
+7.58,7.67,7.75,7.5,7.83,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7.58,7.67,7.5,7.75,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.67,7.42,7.75,7.67,7.58,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.67,7.5,7.75,7.58,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1450,m
+7.58,7.58,7.58,7.58,7.67,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.5,7.5,7.92,7.42,7.67,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.83,7.58,7.25,7.5,7.92,10,Arabica,Thailand,Peaberry,NA,NA,NA,m
+8,7.25,7.88,7.38,7.63,10,Arabica,Mexico,NA,NA,NA,1050,m
+7.58,7.75,7.5,7.75,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1650,m
+7.67,7.67,7.58,7.58,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,NA,m
+7.67,7.83,7.58,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.58,7.5,7.83,7.33,7.58,10,Arabica,Brazil,Catuai,Semi-washed / Semi-pulped,Green,1227,m
+7.58,7.75,7.75,7.5,7.67,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1200,m
+7.42,7.67,7.75,7.42,7.83,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1650,m
+7.58,7.75,7.58,7.67,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Semi-washed / Semi-pulped,Green,1700,m
+7.67,7.67,7.67,7.58,7.67,10,Arabica,Mexico,Other,Washed / Wet,Green,1100,m
+7.58,7.67,7.67,7.42,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1300,m
+7.83,7.83,7.58,7.83,7.67,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+8,7.5,7.67,7.67,7.5,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1200,m
+7.5,7.83,7.75,7.58,7.83,10,Arabica,Peru,NA,Washed / Wet,Green,NA,m
+7.83,7.58,7.5,7.67,7.5,10,Arabica,Haiti,Typica,Washed / Wet,Green,1280.16,ft
+7.5,7.67,7.67,7.5,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1000,m
+7.67,7.83,7.67,7.17,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.83,7.92,7.5,7.58,7.83,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.83,7.75,7.67,7.33,7.5,10,Arabica,Burundi,Bourbon,Washed / Wet,NA,1880,m
+7.67,7.5,7.67,7.67,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.92,8.08,7.83,7.83,7.75,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.5,7.58,7.67,7.58,7.5,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.67,7.67,7.83,7.42,7.83,10,Arabica,Mexico,Typica,Washed / Wet,Blue-Green,1600,m
+7.58,7.5,7.5,7.83,7.5,10,Arabica,Costa Rica,Catuai,Pulped natural / honey,Green,1900,m
+7.67,7.83,7.5,7.42,7.67,10,Arabica,Costa Rica,NA,Washed / Wet,NA,NA,m
+7.67,7.5,7.58,7.42,7.83,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,2100,m
+7.67,7.5,7.67,7.67,7.42,10,Arabica,Uganda,SL14,Washed / Wet,Green,NA,m
+8,7.58,7.67,7.42,7.5,10,Arabica,Brazil,NA,NA,Green,NA,m
+7.58,7.58,7.67,7.67,7.17,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+7.42,7.83,7.75,7.5,7.58,10,Arabica,Mexico,Typica,Natural / Dry,Bluish-Green,1261,m
+7.58,7.67,7.5,7.5,7.5,10,Arabica,Taiwan,Bourbon,Washed / Wet,Blue-Green,1000,m
+7.33,7.92,7.83,7.75,7.58,10,Arabica,Taiwan,Typica,Washed / Wet,Green,800,m
+7.67,7.58,7.58,7.5,7.58,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1483,m
+7.67,7.5,7.67,7.58,7.67,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7.58,7.83,7.5,7.67,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.75,7.58,7.75,7.5,7.5,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1300,m
+7.67,7.58,7.75,7.83,8,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.67,7.75,7.58,7.58,7.58,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,NA,m
+7.58,7.75,7.75,7.42,7.92,10,Arabica,Mexico,Caturra,Washed / Wet,Blue-Green,1000,m
+7.42,7.83,7.58,7.08,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.58,7.75,7.67,7.5,7.58,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Blue-Green,1200,m
+7.58,7.67,7.58,7.58,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,175,m
+7.67,7.67,7.67,7.5,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.5,7.92,7.75,7.25,7.42,10,Arabica,Colombia,NA,NA,NA,1700,m
+7.5,8,7.67,7.67,7.25,10,Arabica,Colombia,NA,NA,NA,1880,m
+7.58,7.92,7.75,7.5,7.42,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.75,7.67,7.42,7.5,7.58,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.67,7.58,7.58,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1901,m
+7.58,7.67,7.58,7.42,7.67,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,168,m
+7.5,7.92,7.5,7.5,7.58,10,Arabica,Peru,NA,NA,Green,NA,m
+7.58,7.58,7.42,7.08,7.33,10,Arabica,Vietnam,Catimor,Natural / Dry,None,1550,m
+7.5,7.67,7.75,7.42,7.75,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7.5,7.67,7.67,7.5,7.67,10,Arabica,Honduras,Catuai,Washed / Wet,Blue-Green,1450,m
+7.67,7.5,7.67,7.33,7.67,10,Arabica,China,Catimor,Washed / Wet,Green,1200,m
+7.67,7.67,7.67,7.5,7.67,10,Arabica,China,Catimor,Washed / Wet,Green,1600,m
+7.5,7.5,7.5,7.33,7.67,10,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1350,m
+7.5,7.5,7.75,7.5,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.42,7.92,7.67,7.42,7.75,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1650,m
+7.83,7.83,7.75,7.67,7.75,9.33,Arabica,Kenya,SL28,Washed / Wet,Bluish-Green,250.5,m
+7.5,7.67,7.58,7.58,7.75,10,Arabica,Thailand,NA,Washed / Wet,Bluish-Green,800,m
+7.67,7.58,7.67,7.67,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Bluish-Green,1653,m
+7.75,7.58,7.5,7.5,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1775,m
+7.67,8,7.67,7.5,7.42,10,Arabica,Uganda,SL14,Washed / Wet,Bluish-Green,1800,m
+7.58,7.58,7.75,7.5,7.58,10,Arabica,Colombia,NA,Washed / Wet,Green,NA,m
+7.67,7.5,7.5,7.5,7.67,10,Arabica,Honduras,Catuai,Natural / Dry,Green,1450,m
+7.5,7.67,7.67,7.5,7.67,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1350,m
+7.67,7.33,7.83,7.17,8.17,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1524,ft
+7.58,7.5,7.5,7.58,7.42,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.58,7.58,7.5,7.58,7.75,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1800,m
+7.5,7.67,7.83,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.75,7.75,7.58,7.58,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1500,m
+7.67,7.75,7.67,7.58,7.5,10,Arabica,Mexico,Typica,Washed / Wet,None,532,m
+7.67,7.58,7.75,7.42,7.67,10,Arabica,Mexico,Pacamara,Washed / Wet,None,1089,m
+7.25,7.67,7.5,7.5,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.75,7.5,7.42,7.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,700,m
+7.5,7.58,7.67,7.5,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1750,m
+7.58,7.5,7.75,7.58,7.58,10,Arabica,Mexico,Typica,Washed / Wet,NA,1380,m
+7.5,7.75,7.67,7.58,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1000,m
+7.67,7.92,7.58,7.5,7.58,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,950,m
+7.5,7.75,7.5,7.67,7.5,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1402.08,ft
+7.58,7.75,7.5,7.58,7.5,10,Arabica,Brazil,Mundo Novo,Semi-washed / Semi-pulped,Blue-Green,1000,m
+7.42,7.58,7.75,7.67,7.5,10,Arabica,Brazil,NA,NA,NA,900,m
+7.58,7.42,7.83,8.17,8.08,10,Arabica,El Salvador,NA,NA,NA,1200,m
+7.92,7.75,8,7.67,8.08,9.33,Arabica,Ethiopia,NA,NA,NA,1850,m
+7.5,7.58,7.67,7.33,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1799,m
+7.17,7.75,7.5,7.5,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.58,7.58,7.58,7.58,7.5,10,Arabica,Brazil,Yellow Bourbon,Pulped natural / honey,Bluish-Green,905,m
+7.92,7.33,7.67,7.67,7.33,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.75,7.83,7.92,7.5,7.83,10,Arabica,Taiwan,Typica,Natural / Dry,Green,750,m
+7.5,7.42,7.67,7.58,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,NA,m
+7.67,7.58,7.83,7.67,7.42,10,Arabica,Brazil,Bourbon,Washed / Wet,Green,1200,m
+7.5,7.83,7.33,7.5,7.67,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1300,m
+7.58,7.33,7.75,7.58,7.33,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.58,7.75,7.75,7.5,7.5,10,Arabica,Taiwan,Typica,Other,NA,1300,m
+7.5,7.83,7.83,7.33,7.17,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.5,7.75,7.67,7.42,7.75,10,Arabica,Mexico,Other,Washed / Wet,NA,1400,m
+8.08,7.67,7.58,7.5,7.67,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+7.42,7.33,7.58,7.58,7.92,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+8.17,7.33,7.33,7.33,7.58,10,Arabica,Colombia,Caturra,NA,NA,1775,m
+7.58,7.83,7.75,7.33,7.25,10,Arabica,Colombia,NA,NA,NA,1880,m
+7.5,7.67,7.58,7.5,7.58,10,Arabica,Indonesia,NA,NA,NA,1350,m
+7.75,7.92,7.67,7.67,7.25,10,Arabica,Guatemala,NA,NA,NA,NA,m
+7.5,7.58,7.5,7.5,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.58,7.5,7.58,7.58,7.67,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,894,m
+7.58,7.5,7.67,7.58,7.67,10,Arabica,Brazil,Bourbon,Natural / Dry,Bluish-Green,872,m
+7.58,7.67,7.58,7.42,7.42,10,Arabica,Uganda,Bourbon,Washed / Wet,Green,1473,m
+7.67,7.67,7.67,7.5,7.58,10,Arabica,Uganda,Bourbon,Natural / Dry,Green,1645,m
+7.58,7.67,7.67,7.33,7.67,10,Arabica,Colombia,NA,NA,Green,442,m
+8,7.75,7.67,7.58,7.58,10,Arabica,Vietnam,Caturra,Other,Green,1550,m
+7.42,7.67,7.75,7.33,7.92,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1550,m
+7.58,7.75,7.67,7.33,7.75,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1371.6,ft
+7.33,7.83,7.67,7.25,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.58,7.67,7.67,7.67,7.5,10,Arabica,Brazil,Catuai,Natural / Dry,Green,1000,m
+7.17,7.92,7.92,7.83,7.58,10,Arabica,Taiwan,Typica,Washed / Wet,Green,1200,m
+7.5,7.83,7.58,7.5,7.5,10,Arabica,Uganda,SL14,Washed / Wet,Green,1800,m
+7.42,7.67,7.5,7.67,7.83,9.33,Arabica,United States (Puerto Rico),Other,Washed / Wet,Bluish-Green,853.44,ft
+7.42,7.67,7.67,7.42,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.67,7.67,7.58,7.5,7.58,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1200,m
+7.5,7.75,7.58,7.42,7.67,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Bluish-Green,1250,m
+8.25,7.75,7.42,7.33,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.83,7.5,7.58,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.5,7.33,7.67,7.75,7.42,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1000,m
+7.58,7.58,7.75,7.42,7.67,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1000,m
+7.67,7.5,7.5,7.42,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.67,7.58,7.42,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,750,m
+7.83,7.67,7.83,7.5,7.58,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1200,m
+7.67,7.5,7.67,7.5,7.5,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1200,m
+7.5,7.67,7.58,7.5,7.5,10,Arabica,Colombia,Arusha,Natural / Dry,NA,NA,m
+7.58,7.75,7.58,7.5,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1625,m
+7.5,7.67,7.58,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.33,7.5,7.67,7.5,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1371.6,ft
+7.5,7.67,7.67,7.58,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1775,m
+7.5,7.33,7.67,7.58,7.5,10,Arabica,Thailand,NA,NA,NA,NA,m
+7.58,7.33,7.67,7.58,7.33,10,Arabica,Colombia,NA,NA,NA,1450,m
+8.08,7.83,7.83,7.67,7.83,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.67,7.5,7.58,7.42,7.58,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.42,7.5,7.58,7.67,7.67,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.92,7.58,7.83,7.75,7.92,9.33,Arabica,Nicaragua,Caturra,NA,NA,NA,m
+7.42,7.5,7.25,7.42,7.75,10,Arabica,Thailand,NA,NA,NA,NA,m
+7.5,7.67,7.58,7.5,7.58,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.5,7.5,7.5,7.75,7.58,9.33,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1350,m
+7.58,7.58,7.67,7.5,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1500,m
+7.75,7.17,7.83,7.25,7.67,10,Arabica,Taiwan,Caturra,Natural / Dry,Green,350,m
+7.58,7.58,7.58,7.5,7.5,10,Arabica,Ethiopia,Ethiopian Heirlooms,Washed / Wet,Bluish-Green,2000,m
+7.58,7.5,7.58,7.67,7.33,10,Arabica,Taiwan,Typica,Natural / Dry,Green,775,m
+7.5,7.58,7.58,7.67,7.58,10,Arabica,Philippines,Other,Washed / Wet,Blue-Green,1200,m
+7.42,8.08,7.5,7.67,7.42,10,Arabica,Philippines,Other,Washed / Wet,Bluish-Green,1600,m
+7.58,7.83,7.67,7.25,7.58,10,Arabica,Mexico,Typica,Natural / Dry,Blue-Green,1059,m
+7.42,7.75,7.67,7.42,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,Bluish-Green,1300,m
+7.58,7.08,7.5,7.5,7.83,10,Arabica,Brazil,Moka Peaberry,Semi-washed / Semi-pulped,Green,11000,m
+7.58,8,7.5,7.5,7.58,10,Arabica,Uganda,SL14,Washed / Wet,Green,1650,m
+7.5,7.75,7.58,7.58,7.5,10,Arabica,Uganda,SL14,Washed / Wet,Green,1400,m
+7.5,7.75,7.5,7.42,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.67,7.67,7.83,7.42,7.5,10,Arabica,Guatemala,Caturra,Natural / Dry,Green,1500,m
+7.75,7.58,7.58,7.25,7.58,10,Arabica,Guatemala,NA,Washed / Wet,Green,NA,m
+7.58,7.58,7.5,7.75,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1900,m
+7.67,7.75,7.5,7.25,7.5,10,Arabica,Colombia,Caturra,Natural / Dry,Bluish-Green,1750,m
+7.5,7.83,7.75,7.25,7.92,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1706.88,ft
+7.5,7.83,7.67,7.42,7.42,10,Arabica,Colombia,Other,Washed / Wet,Green,1450,m
+7.83,7.58,7.58,7.33,7.25,10,Arabica,Mexico,Typica,Natural / Dry,Green,1248,m
+7.67,7.67,7.33,7.17,7.58,10,Arabica,Vietnam,Other,Natural / Dry,None,1040,m
+7.75,8,7.92,7.67,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.5,7.5,7.5,7.5,7.42,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.67,7.5,7.75,7.33,7.75,10,Arabica,Colombia,NA,NA,NA,1450,m
+7.75,7.42,7.58,7.5,7.17,10,Arabica,Thailand,NA,NA,NA,NA,m
+7.5,7.75,7.58,7.42,7.58,10,Arabica,Kenya,SL28,Washed / Wet,Green,1754,m
+7.58,7.5,7.58,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.58,7.67,7.58,7.58,7.5,10,Arabica,Brazil,Yellow Bourbon,Pulped natural / honey,Bluish-Green,905,m
+7.33,7.33,7.67,7.67,7.83,10,Arabica,El Salvador,Pacas,Washed / Wet,Green,1250,m
+8,7.83,7.92,7.75,7.83,9.33,Arabica,Rwanda,Bourbon,Washed / Wet,Bluish-Green,1900,m
+7.92,7.25,7.58,7.5,7.42,10,Arabica,Vietnam,Other,Other,Green,1040,m
+7.5,7.58,7.58,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.67,7.58,7.83,7.33,7.67,10,Arabica,Brazil,Catuai,Natural / Dry,Green,900,m
+7.08,7.83,7.67,7.5,7.58,10,Arabica,Colombia,Other,Washed / Wet,NA,1600,m
+7.58,7.42,7.58,7.25,7.5,10,Arabica,United States,Other,Other,NA,1200,m
+7.5,7.67,7.67,7.75,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+7.67,7.5,7.42,7.58,7.5,10,Arabica,Colombia,Typica,Natural / Dry,Green,1800,m
+7.58,7.83,7.5,7.5,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.75,7.67,7.5,7.33,7.25,10,Arabica,"Tanzania, United Republic Of",Arusha,Washed / Wet,Green,1400,m
+7.5,7.58,7.67,7.5,7.58,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1550,m
+7.58,7.67,7.58,7.42,7.75,10,Arabica,Mexico,Bourbon,Washed / Wet,Blue-Green,1250,m
+7.42,7.67,7.67,7.33,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.5,7.58,7.58,7.5,7.42,10,Arabica,Mexico,Typica,Washed / Wet,NA,1380,m
+7.25,7.75,7.58,7.75,7.75,10,Arabica,El Salvador,NA,NA,NA,1200,m
+7.5,7.5,7.58,7.42,7.67,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1100,m
+7.5,7.58,7.67,7.5,7.58,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1800,m
+7.5,7.5,7.67,7.17,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.58,7.5,7.5,7.42,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.67,7.42,7.58,7.42,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.58,7.5,7.58,7.42,7.58,10,Arabica,Indonesia,Sulawesi,Other,Blue-Green,1500,m
+7.67,7.58,7.58,7.33,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,157.8864,ft
+7.67,7.83,7.67,7.33,7.67,10,Arabica,Taiwan,Yellow Bourbon,Natural / Dry,Green,650,m
+7.67,7.67,7.67,7.17,7.33,10,Arabica,El Salvador,Bourbon,Washed / Wet,NA,1250,m
+7.67,7.58,7.5,7.42,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1850,m
+7.67,7.58,7.5,7.42,7.58,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1400,m
+7.5,7.5,7.5,7.58,7.5,10,Arabica,Brazil,Yellow Bourbon,Pulped natural / honey,Bluish-Green,905,m
+7.58,7.67,7.5,7.33,7.33,10,Arabica,China,Catimor,Natural / Dry,Green,1100,m
+7.5,7.5,7.67,7.42,7.67,10,Arabica,China,Catimor,Washed / Wet,Green,1500,m
+7.5,7.5,7.58,7.58,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1775,m
+7.67,7.75,7.58,7.42,7.5,10,Arabica,Malawi,Gesha,Washed / Wet,Bluish-Green,1442,m
+7.42,7.75,7.42,7.25,7.75,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,1524,ft
+7.67,7.67,7.42,7.42,7.58,10,Arabica,Colombia,Typica,Washed / Wet,Green,165,m
+7.42,7.67,7.58,7.42,7.83,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Blue-Green,NA,ft
+7.75,7.58,7.83,7.75,7.75,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.5,7.58,7.33,7.17,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1300,m
+7.58,7.58,7.58,7.5,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1550,m
+7.67,7.58,7.58,7.33,7.75,10,Arabica,Mexico,Typica,Washed / Wet,NA,1200,m
+8.08,8.08,8.17,8,8,10,Arabica,Mexico,Typica,Natural / Dry,NA,1200,m
+7.5,7.5,7.58,7.42,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1625,m
+7.42,7.67,7.58,7.58,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.75,7.25,7.75,7.5,7.83,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.58,7.42,7.42,7.5,7.58,10,Arabica,Panama,Catuai,Washed / Wet,Green,1100,m
+7.42,7.75,7.67,7.5,7.83,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.5,7.5,7.58,7.25,7.75,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.5,7.5,7.58,7.5,7.67,10,Arabica,Brazil,Bourbon,Natural / Dry,Bluish-Green,934,m
+7.58,7.67,7.67,7.42,7.42,10,Arabica,Laos,Catimor,Washed / Wet,Bluish-Green,1300,m
+7.5,7.67,7.67,7.67,7.67,9.33,Arabica,El Salvador,Pacas,Washed / Wet,Green,1200,m
+7.75,7.5,7.67,7.42,7.75,10,Arabica,Mexico,NA,NA,Green,1300,m
+7.42,7.75,7.5,7.33,7.58,10,Arabica,Colombia,NA,Washed / Wet,Green,NA,m
+7.5,7.58,7.5,7.42,7.67,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.5,7.33,7.5,7.58,7.58,10,Arabica,Brazil,Catuai,Natural / Dry,NA,NA,m
+7.58,7.5,7.5,7.5,7.5,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1700,m
+7.58,7.58,7.5,7.5,7.58,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1550,m
+7.08,8,7.83,7.83,7.42,10,Arabica,Taiwan,Typica,Washed / Wet,Green,1200,m
+7.58,7.67,7.58,7.42,7.5,10,Arabica,Mexico,Typica,Natural / Dry,Green,1296,m
+7.5,7.67,7.5,7.33,7.67,10,Arabica,Uganda,SL14,Washed / Wet,Green,1650,m
+7.5,7.67,7.5,7.5,7.5,10,Arabica,Taiwan,Typica,Washed / Wet,Green,1240,m
+7.5,7.42,7.5,7.5,7.67,10,Arabica,Thailand,Caturra,Washed / Wet,Bluish-Green,1500,m
+7.42,7.75,7.58,7.67,7.25,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1800,m
+7.67,7.92,8,7.5,6.75,9.33,Arabica,El Salvador,Other,Washed / Wet,None,NA,m
+7.5,7.67,7.67,7.17,7.67,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7.58,7.83,7.33,7.83,7.33,9.33,Arabica,Thailand,Other,Washed / Wet,Bluish-Green,NA,m
+7.58,7.58,7.58,7.42,7.58,10,Arabica,Mexico,Other,Washed / Wet,NA,1100,m
+7.58,7.5,7.58,7.58,7.58,10,Arabica,Mexico,Typica,Washed / Wet,NA,950,m
+7.58,7.33,7.58,7.42,7.42,10,Arabica,Colombia,NA,NA,Green,3850,m
+7.58,7.83,7.67,7.5,7.67,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.08,7.75,7.58,7.25,7.75,10,Arabica,Mexico,Blue Mountain,NA,NA,1400,m
+7.42,8.08,7.67,7.67,7.33,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.58,7.5,7.42,7.33,7.33,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.5,7.5,7.42,7.42,7.75,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.5,7.67,7.42,7.5,7.42,10,Arabica,Taiwan,Typica,Pulped natural / honey,Green,1050,m
+7.5,7.5,7.58,7.42,7.5,10,Arabica,Brazil,NA,Pulped natural / honey,Green,NA,m
+10,7.25,7.25,7,7.08,10,Arabica,Taiwan,NA,NA,Blue-Green,200,m
+8,7.42,7.42,7.5,7.33,10,Arabica,Brazil,NA,NA,Green,NA,m
+7.5,7.83,7.58,7.42,7.33,10,Arabica,Indonesia,Typica,Semi-washed / Semi-pulped,Blue-Green,1250,m
+7.5,7.75,7.33,7.42,7.67,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.5,7.42,7.58,7.58,7.42,10,Arabica,Thailand,Caturra,Washed / Wet,Blue-Green,1450,m
+7.5,7.75,7.42,7.33,7.5,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,NA,1317,m
+7.42,7.83,7.5,7.42,7.58,10,Arabica,Uganda,SL14,Natural / Dry,Green,1650,m
+7.58,7.67,7.42,7.5,7.67,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1300,m
+7.58,7.58,7.58,7.42,7.75,10,Arabica,Mexico,NA,Washed / Wet,Green,NA,m
+7.5,7.5,7.58,7.42,7.58,10,Arabica,Guatemala,NA,Natural / Dry,Blue-Green,NA,m
+7.5,7.75,7.25,7.33,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Blue-Green,1750,m
+7.42,7.75,7.5,7.75,7.25,10,Arabica,Colombia,Caturra,Washed / Wet,NA,1750,m
+7.42,7.58,7.5,7.42,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.58,7.5,7.58,7.5,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.5,7.67,7.58,7.58,7.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,1150,m
+7.67,7.33,7.42,7.58,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.42,7.58,7.5,7.33,7.75,10,Arabica,Brazil,Mundo Novo,NA,NA,975,m
+7.42,7.5,7.5,7.5,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.42,7.83,7.75,7.25,7.5,10,Arabica,Indonesia,Other,Washed / Wet,Green,1250,m
+7.5,7.58,7.58,7.33,7.5,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.5,7.5,7.5,7.33,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.83,7.5,7.83,7.5,7.75,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.5,7.33,7.5,7.5,7.5,10,Arabica,Thailand,Caturra,Washed / Wet,NA,1450,m
+7.5,7.67,7.42,7.33,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1600,m
+7.58,7.75,7,7.42,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Bluish-Green,NA,m
+7.58,7.42,7.58,7.5,7.67,10,Arabica,Mexico,Other,Washed / Wet,Green,1600,m
+7.5,7.42,7.5,7.67,7.33,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Bluish-Green,1260,m
+7.33,7.83,7.42,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.5,7.5,7.5,7.42,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.33,7.83,7.67,7.17,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.58,7.5,7.58,7.5,7.5,10,Arabica,Mexico,Typica,Washed / Wet,None,1679,m
+7.5,7.67,7.5,7.33,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.5,7.92,7.5,7.33,7.58,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,NA,1650,m
+7.5,7.67,7.33,7.33,7.33,10,Arabica,Guatemala,Caturra,Natural / Dry,Green,NA,m
+7.42,7.67,7.42,7.33,7.67,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Blue-Green,1250,m
+7.58,7.67,7.5,7.33,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.58,7.33,7.42,7.33,7.75,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.33,7.75,7.58,7.67,7.67,10,Arabica,Guatemala,NA,NA,NA,1600,m
+7.5,7.42,7.67,7.17,7.58,10,Arabica,Honduras,Other,Washed / Wet,Green,1500,m
+7.42,7.58,7.5,7.33,7.75,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.5,7.67,7.58,7.25,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.42,7.58,7.5,7.25,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,157.8864,ft
+7.5,7.5,7.42,7.08,7.75,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,NA,m
+8.08,5.08,7.75,7.83,7.75,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1600,m
+7.58,7.67,7.42,7.42,7.5,10,Arabica,China,Catimor,Washed / Wet,Green,1600,m
+8,7.42,7.5,7.33,7.5,10,Arabica,Brazil,NA,NA,Green,NA,m
+7.58,7.67,7.25,7.42,7.42,10,Arabica,"Tanzania, United Republic Of",Ruiru 11,Washed / Wet,Green,2285,m
+7.42,7.17,7.83,7.33,7.5,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.33,7.5,7.5,7.5,7.67,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1400,m
+7.58,7.42,7.5,7.42,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1296,m
+7.42,7.58,7.67,7.33,7.5,10,Arabica,Brazil,Catuai,Semi-washed / Semi-pulped,Blue-Green,1000,m
+7.5,7.58,7.58,7.58,7.75,10,Arabica,Peru,NA,Washed / Wet,Green,NA,m
+8.17,7.25,7.33,7.25,7.5,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1260,m
+7.5,7.5,7.58,7.5,7.92,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1170,m
+7.67,7.25,7.67,7.42,7.17,10,Arabica,Honduras,NA,Washed / Wet,None,NA,m
+7.42,7.67,7.42,7.33,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.42,7.5,7.42,7.42,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Green,1560,m
+7.42,7.42,7.58,7.5,7.42,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1400,m
+7.5,7.42,7.58,7.33,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.58,7.75,7.33,7.25,7.58,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1170,m
+7.5,7.5,7.58,7.33,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.58,7.58,7.58,7.17,7.5,10,Arabica,Mexico,Pacamara,Washed / Wet,Green,1350,m
+7.58,7.58,7.33,7.33,7.58,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1150,m
+7.5,7.67,7.58,7.33,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,NA,1250,m
+7.5,7.83,7.5,7.42,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Bluish-Green,1450,m
+7.58,7.67,7.33,7.25,7.42,10,Arabica,Colombia,Caturra,Natural / Dry,NA,442,m
+7.42,7.75,7.5,7.42,7.42,10,Arabica,Brazil,Arusha,Natural / Dry,Blue-Green,NA,m
+7.75,7.33,7.58,7.17,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.5,7.58,7.25,7.42,7.25,10,Arabica,Colombia,NA,NA,NA,1750,m
+7.58,7.5,7.58,7.33,7.5,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1396,m
+7.67,7.33,7.5,7.5,7.33,10,Arabica,Brazil,Catuai,Natural / Dry,Green,982,m
+7.5,7.42,7.42,7.42,7.5,10,Arabica,Brazil,NA,Natural / Dry,Green,NA,m
+7.5,7.5,7.5,7.42,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Bluish-Green,934,m
+7.5,7.75,7.5,7.25,7.25,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1850,m
+7.33,7.75,7.33,7.5,7.5,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1550,m
+7.5,7.5,7.58,7.42,7.5,10,Arabica,China,Catimor,Pulped natural / honey,Green,1580,m
+7.75,8.25,7.83,7.25,8.33,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1268,m
+7.42,7.42,7.5,7.5,7.42,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,NA,m
+7.42,7.5,7.42,7.17,7.83,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1676.4,ft
+7.58,7.33,7.58,7.42,7.58,10,Arabica,Malawi,Gesha,Washed / Wet,Green,1450,m
+8,7.75,8.08,7.67,8.08,6.67,Arabica,Brazil,Bourbon,Natural / Dry,Blue-Green,1100,m
+7.42,7.58,7.67,7.5,7.58,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,1524,ft
+7.5,7.33,7.58,7.42,7.5,10,Arabica,Mexico,NA,Washed / Wet,Green,NA,m
+7.5,7.42,7.33,7.5,7.17,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1300,m
+7.33,7.5,7.5,7.5,7.5,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,200,m
+7.33,7.5,7.5,7.5,7.5,10,Arabica,Taiwan,Typica,Washed / Wet,Green,600,m
+7.25,7.5,7.42,7.58,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.33,7.5,7.42,7.5,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.42,7.67,7.5,7.42,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.67,7.92,7.58,7.25,7.75,10,Arabica,Costa Rica,NA,Washed / Wet,Green,NA,m
+7.33,7.67,7.5,7.33,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1752.6,ft
+7.58,7.58,7.67,7.58,7.33,10,Arabica,Mexico,Typica,Natural / Dry,None,441,m
+7,7.67,7.58,7.5,7.58,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1170,m
+7.5,7.5,7.67,7.33,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.42,7.58,7.5,7.42,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1100,m
+7.83,8,7.75,7.33,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.42,7.58,7.58,7.25,7.58,10,Arabica,Brazil,Mundo Novo,Washed / Wet,Green,950,m
+7.33,7.83,7.58,7.33,7.25,10,Arabica,Colombia,Caturra,Natural / Dry,Green,442,m
+7.5,7.58,7.5,7.25,7.42,10,Arabica,Brazil,Catuai,Washed / Wet,Green,1100,m
+10,7,7.08,7,7.17,10,Arabica,Taiwan,NA,NA,Blue-Green,NA,m
+7.33,7.67,7.5,7.25,7.67,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,1450,m
+7.67,7.42,7.67,7.5,7.08,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.58,7.58,7.67,7.5,7.67,9.33,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1500,m
+7.33,7.58,7.5,7.42,7.58,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1350,m
+7.42,7.58,7.42,7.33,7.42,10,Arabica,Malawi,Gesha,Washed / Wet,Blue-Green,1180,m
+7.42,7.75,7.58,7.42,7.42,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1100,m
+7.25,7.5,7.5,7.5,7.5,10,Arabica,Taiwan,Typica,Washed / Wet,Green,650,m
+7.42,7.58,7.58,7.42,7.42,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Blue-Green,1338,m
+7.42,7.33,7.42,7.5,7.67,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.58,7.58,7.58,7.5,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,None,533,m
+7.33,7.5,7.5,7.33,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1390.8024,ft
+7.33,7.5,7.58,7.42,7.67,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1170,m
+7.33,7.67,7.58,7.33,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.33,7.75,7.33,7.33,7.5,10,Arabica,El Salvador,Other,Washed / Wet,Green,NA,m
+7.42,7.33,7.58,7.42,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.42,7.42,7.5,7.42,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,900,m
+7.42,7.5,7.42,7.67,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.58,7.67,7.33,7.33,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1775,m
+7.5,7.67,7.58,7.42,7,10,Arabica,Brazil,Arusha,Natural / Dry,Green,NA,m
+7.75,7.17,7.25,7.58,7.25,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.5,7.42,7.42,7.5,7.42,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,934,m
+7.58,7.5,7.5,7.17,7.42,10,Arabica,Honduras,Caturra,Washed / Wet,Bluish-Green,1500,m
+7.5,7.5,7.5,7.33,7.42,10,Arabica,Nicaragua,NA,NA,Green,1000,m
+7.5,7.58,7.42,7.42,7.33,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1650,m
+7.58,7.42,7.42,7.42,7.5,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1600,m
+7.58,6.92,7.58,7.42,7.33,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.5,7.42,7.42,7.17,7.75,10,Arabica,Thailand,NA,Washed / Wet,Bluish-Green,800,m
+7.33,7.67,7.5,7.25,7.42,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1350,m
+7.42,7.42,7.42,7.5,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Blue-Green,1500,m
+7.5,7.58,7.5,7.42,7.25,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,NA,m
+7.25,7.75,7.42,7.42,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1700,m
+7.33,7.42,7.33,7.17,7.42,10,Arabica,Mexico,Other,Washed / Wet,Green,1100,m
+7.5,7.5,7.5,7.33,7.42,10,Arabica,Mexico,Other,Washed / Wet,None,1400,m
+7.17,7.5,7.5,7.5,7.5,10,Arabica,Taiwan,Typica,Other,Green,1200,m
+7.58,7.67,7.5,7.5,7.17,10,Arabica,Taiwan,Typica,Washed / Wet,Green,800,m
+7.5,7.33,7.25,7.25,7.58,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1750,m
+7.67,7.5,7.67,7,7.5,10,Arabica,Mexico,Typica,Washed / Wet,None,1144,m
+7.17,7.25,7.75,7,7.75,9.33,Arabica,Guatemala,Caturra,Washed / Wet,None,1350,m
+7.5,7.5,7.58,7.25,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1000,m
+7.58,7,7.67,7.5,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1200,m
+7.42,7.58,7.67,7.42,7.17,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.33,7.5,7.5,7.42,7.42,10,Arabica,Indonesia,Bourbon,Washed / Wet,NA,1300,m
+7.58,7.75,7.58,7.42,7.67,10,Arabica,Colombia,Caturra,Washed / Wet,Green,NA,m
+7.5,7.42,7.58,7.42,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,894,m
+7.25,7.25,7.25,7.58,7.58,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.67,7.75,7.42,7.42,7.25,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,1300,m
+7.42,7.42,7.33,7.42,7.42,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1500,m
+7.5,7.42,7.5,7.5,7.33,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1600,m
+7.25,7.5,7.42,7.42,7.42,10,Arabica,Colombia,NA,Washed / Wet,Green,NA,m
+7.33,7.58,7.33,7.33,7.33,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,13,m
+7.5,7.25,7.58,7.58,7.25,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.42,7.42,7.58,7.5,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.5,7.5,7.42,7.42,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1800,m
+7.33,7.67,7.5,7.25,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.42,7.67,8,7.17,7.08,10,Arabica,Vietnam,Other,Natural / Dry,Green,1040,m
+7.33,7.58,7.42,7.25,7.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.42,7.33,7.5,7.33,7.58,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.17,7.67,7.42,7.67,7.33,10,Arabica,Colombia,NA,NA,NA,1600,m
+7.42,7.5,7.5,7.17,7.5,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1600,m
+7.5,7.5,7.5,7.25,7.33,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1600,m
+7.5,7.5,7.33,7.42,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,944,m
+7.42,7.67,7.33,7.33,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1650,m
+7.5,7.42,7.5,7.25,7.33,10,Arabica,Laos,Other,Washed / Wet,Blue-Green,1250,m
+7.5,7.42,7.42,7.33,7.58,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1350,m
+7.33,7.5,7.42,7.33,7.58,10,Arabica,Malawi,Gesha,Washed / Wet,Bluish-Green,2500,m
+7.75,7.33,7.5,7.17,7.42,10,Arabica,Taiwan,Typica,Washed / Wet,Green,600,m
+7.33,7.58,7.5,7.42,7.42,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.33,7.5,7.25,7.33,7.33,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1300,m
+7.17,7.33,7.33,7.33,7.5,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.17,7.33,7.33,7.58,7.5,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1900,m
+7.42,7.42,7.58,7.33,7.42,10,Arabica,Taiwan,Typica,Washed / Wet,Bluish-Green,650,m
+7.67,7.33,7.67,7.42,7.17,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Blue-Green,1038.5,m
+7.42,7.67,7.33,7.25,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,940,m
+7.42,7.42,7.5,7.33,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1000,m
+7.42,7.42,7.5,7.25,7.5,10,Arabica,Brazil,Catuai,Semi-washed / Semi-pulped,Blue-Green,1050,m
+7.17,7.33,7.33,7.33,7.5,10,Arabica,Guatemala,Bourbon,Natural / Dry,Green,NA,m
+7.33,7.58,7.5,7.17,7.5,10,Arabica,Brazil,Mundo Novo,Semi-washed / Semi-pulped,Green,950,m
+7.42,7.75,7.33,7.33,7.42,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1402.08,ft
+8,7.33,7,7.08,7.42,10,Arabica,Colombia,Caturra,NA,NA,1775,m
+7.58,7.58,7.5,7.25,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1901,m
+7.42,7.5,7.5,7.25,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.33,7.58,7.5,7.25,7.33,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.5,7.42,7.33,7.33,7.5,10,Arabica,Brazil,Catuai,Natural / Dry,Green,1020,m
+7.33,7.67,7.58,7.33,7.5,9.33,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1250,m
+7.25,7.58,7.58,7.17,7.83,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1550,m
+7.42,7.33,7.33,7.33,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1877,m
+7.33,7.58,7.42,7.25,7.17,10,Arabica,Nicaragua,NA,Washed / Wet,Green,NA,m
+7.25,7.67,7.08,7.42,7.33,10,Arabica,Zambia,SL28,Washed / Wet,NA,1250,m
+7.42,7.42,7.33,7.33,7.58,10,Arabica,Honduras,NA,Washed / Wet,Green,NA,m
+7.25,7.5,7.5,7.42,7.25,10,Arabica,Taiwan,Typica,Other,Green,1000,m
+7.25,7.58,7.5,7.25,7.58,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1300,m
+7.42,7.5,7.5,7.25,7.25,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,None,981,m
+7.58,7.5,7.42,7.25,7.5,10,Arabica,Mexico,Mundo Novo,Washed / Wet,None,690,m
+7.5,7.33,7.58,7.17,7.58,10,Arabica,Mexico,Other,Washed / Wet,Green,1650,m
+7.33,7.67,7.42,7.33,7.83,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1000,m
+7.33,7.42,7.58,7.25,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1100,m
+7.33,7.67,7.33,7.33,7.58,10,Arabica,Colombia,NA,NA,NA,1600,m
+7.42,7.42,7.5,7.25,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,157.8864,ft
+7.33,7.25,7.33,7.5,7.33,10,Arabica,Costa Rica,Catuai,Pulped natural / honey,Green,1900,m
+7.33,7.42,7.5,7.42,7.5,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,973,m
+5.17,7.75,7.83,7.58,7.75,10,Arabica,Indonesia,Other,Other,Green,1250,m
+7.17,7.58,7.5,7.33,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,3280,m
+7.75,7.17,7.58,6.83,7.5,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+8.25,7.58,7,6.92,6.92,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.33,7.33,7.58,7.5,7.42,10,Arabica,Myanmar,Catuai,Washed / Wet,Green,4001,m
+7.42,7.58,7.5,7.33,7.5,10,Arabica,Mexico,Catuai,Washed / Wet,Green,1425,m
+7.33,7.5,7.5,7.33,7.5,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1400,m
+7.42,7.67,7.5,7.5,7.25,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1300,m
+7.33,7.67,7.33,7.17,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Green,700,m
+7.42,7.42,7.42,7.42,7.33,10,Arabica,Indonesia,Typica,Other,None,1300,m
+7.42,7.58,7.42,7.33,7.33,10,Arabica,Malawi,Gesha,Washed / Wet,Green,1556,m
+7.33,7.33,7.58,7.25,7.17,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1100,m
+7.5,7.5,7.5,7.33,7.33,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1350,m
+7.5,7.42,7.42,7.25,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1550,m
+7.33,7.5,7.5,7,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Bluish-Green,1775,m
+8,7.83,7.83,7.83,8,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.83,7.75,7.75,7.5,7.42,9.33,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Bluish-Green,1250,m
+7.5,7.83,7.67,7.33,7.33,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.25,7.83,7.33,7.25,7.58,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1500,m
+7.42,7.33,7.33,7.25,7.5,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1250,m
+7.33,7.33,7.67,7.25,7.5,10,Arabica,Brazil,Mundo Novo,NA,NA,925,m
+7.33,7.58,7.5,7.17,7.58,10,Arabica,Colombia,NA,NA,NA,1700,m
+7.33,7.25,7.58,7.83,7.67,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.33,7.5,7.5,7.25,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+8,7,7.08,7.33,7.5,10,Arabica,Vietnam,Caturra,Washed / Wet,Bluish-Green,1040,m
+7.42,7.42,7.42,7.42,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Bluish-Green,1600,m
+7.25,7.17,7.25,7.17,7.25,10,Arabica,Brazil,NA,Natural / Dry,Bluish-Green,NA,m
+7.5,7.5,7.5,7.33,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,None,774,m
+7.25,7.42,7.5,7.17,7.67,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1250,m
+7.25,7.42,7.5,7.33,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.33,7.33,7.42,7.33,7.67,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1550,m
+7.33,7.5,7.42,7.25,7.33,10,Arabica,Mexico,Typica,Washed / Wet,NA,1650,m
+7.17,7.33,7.42,7.33,7.33,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1750,m
+7.5,7.42,7.58,6.92,7.08,10,Arabica,Colombia,NA,NA,NA,1775,m
+7.25,7.42,7.5,7.25,7.5,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+7.58,7.42,7.42,7.08,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.33,7.42,7.33,7.17,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.25,7.58,7.5,7.33,7.33,10,Arabica,Honduras,Catuai,Washed / Wet,Blue-Green,1450,m
+7.58,7.17,7.33,7.33,7.42,10,Arabica,"Tanzania, United Republic Of",NA,NA,Green,1800,m
+7.33,7.58,7.5,7.25,7.25,10,Arabica,Nicaragua,NA,NA,Green,NA,m
+7.67,7.75,7.75,7.75,7.67,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.25,7.25,7.75,6.92,7.42,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.33,7.42,7.33,7.25,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1500,m
+7.5,7.33,7.33,7.5,7.25,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1700,m
+7.33,7.25,7.42,7.25,7.5,10,Arabica,Brazil,Bourbon,Washed / Wet,Green,1260,m
+7.58,7.17,7.42,7.33,7.42,10,Arabica,Indonesia,Sumatra,Semi-washed / Semi-pulped,Bluish-Green,NA,m
+7.5,7.5,7.33,7.5,7.5,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1400,m
+8.08,7.5,7.17,7.17,7.17,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1850,m
+7.42,7.42,7.42,7.67,8,10,Arabica,Mexico,NA,Washed / Wet,Green,NA,m
+7.25,7.5,7.5,7.5,7.25,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,150,m
+7.25,7.58,7.42,7.33,7.42,10,Arabica,Taiwan,Typica,Washed / Wet,Green,750,m
+7.42,7.5,7.42,7.08,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.17,7.5,7.67,7.33,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1752.6,ft
+7.58,7.25,7.67,7.58,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Green,1650,m
+7.08,7.67,7.25,7.17,7.75,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1400,m
+7.17,7.5,7.42,7.33,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1200,m
+7.42,7.58,7.42,7.25,7.58,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1400,m
+7.67,7.75,7.58,7.25,7.17,10,Arabica,Mexico,Caturra,Semi-washed / Semi-pulped,Green,940,m
+7.25,7.42,7.33,7.33,7.33,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.33,7.5,7.42,7.08,7.42,10,Arabica,Honduras,Catimor,Washed / Wet,Blue-Green,1200,m
+7.42,7.42,7.42,7.08,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,190164,m
+7.25,7.42,7.42,7.25,7.67,10,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,800,m
+7.25,7.58,7.42,7.5,7.17,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,13,m
+7.25,7.42,7.42,7.33,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1800,m
+7.33,7.42,7.42,7.17,7.58,10,Arabica,Malawi,Gesha,Washed / Wet,Green,1100,m
+7,7.33,7.17,7.08,7.08,9.33,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,NA,850,m
+7.33,7.42,7.42,7.33,7.33,10,Arabica,Brazil,Yellow Bourbon,Washed / Wet,Blue-Green,1260,m
+7.17,7.42,7.33,7.17,7.58,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.33,7.67,7.5,7.42,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.33,7.33,7.5,7.25,7.5,10,Arabica,Mexico,Marigojipe,Natural / Dry,NA,1600,m
+7.67,7.67,7.58,7.42,7.58,8.67,Arabica,Mexico,Typica,Natural / Dry,NA,1650,m
+7.33,7.08,7.33,7.58,7.58,10,Arabica,Thailand,NA,NA,NA,1499.9208,ft
+7.33,7.33,7.33,7.17,7.5,10,Arabica,Thailand,NA,NA,NA,NA,m
+7.25,7.25,7.17,7.33,7.33,10,Arabica,Costa Rica,NA,NA,NA,1600.2,ft
+7.58,7.67,7.58,7.17,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.33,7.5,7.42,7.33,7.33,10,Arabica,Nicaragua,Caturra,Other,Green,1100,m
+7.33,7.5,7.5,7.33,7.42,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.33,7.5,7.42,7.25,7.25,10,Arabica,Guatemala,Bourbon,NA,Green,NA,m
+7.33,7.5,7.42,7.33,7.08,10,Arabica,Taiwan,Typica,Natural / Dry,Green,180,m
+7.42,7.25,7.42,7.25,7.5,10,Arabica,Myanmar,Catuai,Washed / Wet,Green,1219.2,ft
+7.33,7.83,7.33,7.08,7.08,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1200,m
+7.33,7.67,7.42,6.92,7.5,10,Arabica,Malawi,Gesha,Washed / Wet,Green,1599,m
+7.17,7.5,7.42,7.17,7.58,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+7.5,7.42,7.33,7.67,7.33,9.33,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,900,m
+7.75,7.58,7.5,7.5,7.67,9.33,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Green,1200,m
+7.33,7.42,7.33,7.25,7.42,10,Arabica,Haiti,Blue Mountain,Washed / Wet,Bluish-Green,825,m
+7.42,7.5,7.42,7.25,7.25,10,Arabica,Taiwan,Typica,Other,Green,600,m
+7.25,7.33,7.33,7.17,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1150,m
+7.17,7.58,7.42,7.25,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1600,m
+7.08,7.42,7.25,7.17,7.42,10,Arabica,Mexico,Catuai,Washed / Wet,Green,1100,m
+7.25,7.33,7.5,7.33,7.33,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1000,m
+7.5,7.42,7.42,7.33,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1250,m
+7.42,7.5,7.5,7.25,7.5,10,Arabica,Mexico,Typica,Natural / Dry,Green,1100,m
+7.17,7.75,7.17,7.17,7.33,10,Arabica,Indonesia,Other,Washed / Wet,Green,1400,m
+7.17,7.5,7.42,7.17,7.42,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Blue-Green,125,m
+7.42,7.33,7.5,7.33,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.33,7.42,7.42,7.17,7.42,10,Arabica,Colombia,NA,NA,NA,1450,m
+7.33,7.33,7.33,7.33,7.5,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.25,7.58,7.33,7.08,7.33,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1100,m
+7.42,7.42,7.33,7.08,7.58,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1371.6,ft
+7.5,7.33,7.5,7.5,7.33,10,Arabica,Brazil,Catuai,Natural / Dry,Green,1100,m
+7.25,7.5,7.33,7.17,7.25,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1400,m
+7.08,7.83,7.75,7.42,7.17,10,Arabica,Taiwan,Typica,Washed / Wet,Green,110,m
+7.42,7.58,7.17,7.33,7.42,10,Arabica,Malawi,Gesha,Washed / Wet,Bluish-Green,1422,m
+7.42,7.25,7.5,7.42,7.17,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,1100,m
+7.08,7.42,7.5,7.17,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1550,m
+7.33,7.67,7.33,7.25,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Green,1550,m
+7.25,7.42,7.42,7.17,7.33,10,Arabica,Peru,NA,Washed / Wet,Bluish-Green,NA,m
+7.08,7.42,7.33,7.25,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.58,7.42,7.33,7.25,7.17,10,Arabica,Mexico,Caturra,Washed / Wet,None,763,m
+7.25,7.42,7.42,7.25,7.25,10,Arabica,Mexico,Typica,Washed / Wet,NA,1100,m
+7.17,7.5,7.42,7.25,7.17,10,Arabica,Colombia,Caturra,Natural / Dry,Green,1750,m
+7.33,7.75,7.33,7.42,7,10,Arabica,Colombia,NA,NA,NA,1880,m
+6.92,7.83,7,7,7.58,10,Arabica,United States (Hawaii),Peaberry,NA,NA,NA,ft
+7.25,7.5,7.33,7.33,7.17,10,Arabica,Colombia,Caturra,Washed / Wet,NA,NA,m
+7.33,7.5,7.5,7,7.17,10,Arabica,Honduras,Caturra,Washed / Wet,Bluish-Green,1500,m
+7.17,7.67,7.42,7,7.42,10,Arabica,Mexico,NA,NA,Green,1130,m
+7.33,7.25,7.33,7.33,7.33,10,Arabica,Brazil,Catuai,Natural / Dry,Green,1100,m
+7.42,7.58,7.42,7.17,7.42,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1350,m
+7.42,7.17,7.33,7.42,7.25,10,Arabica,Brazil,Yellow Bourbon,Other,Green,1200,m
+7.33,7.08,7.33,7.42,7.33,10,Arabica,Philippines,Other,Washed / Wet,Green,1400,m
+7.25,7.75,7.33,7.08,7.33,10,Arabica,Malawi,Gesha,Washed / Wet,Green,1200,m
+7.33,7.33,7.33,7.17,7.33,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1450,m
+7.25,7.58,7.42,7.25,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1800,m
+7.25,7.33,7.25,7.17,7.42,10,Arabica,Mexico,Typica,Washed / Wet,None,1000,m
+7.58,7.5,7.58,7.5,7.5,9.33,Arabica,Brazil,Catuai,Natural / Dry,Green,1100,m
+5.25,7.83,7.75,7.67,7.83,10,Arabica,Taiwan,Typica,Natural / Dry,Green,680,m
+7.33,7.17,7.42,7.17,7.08,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1,m
+7.5,7.08,7.5,7.33,7.17,10,Arabica,Nicaragua,Catuai,Washed / Wet,Green,1100,m
+7.42,7.42,7.17,7.17,7.5,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1400,m
+7.33,7.33,7.42,7.17,7.25,10,Arabica,Guatemala,Pacamara,Washed / Wet,Bluish-Green,1700,m
+7.42,7.33,7.17,7.17,7.5,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1700,m
+7.25,7.5,7.5,7.25,7.25,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,650,m
+7.08,7.5,7.33,7.5,7.58,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1524,ft
+7.5,7.42,7.42,7.33,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1500,m
+7.25,7.33,7.5,7.17,7.17,10,Arabica,Nicaragua,NA,Washed / Wet,Green,1200,m
+7.17,7.67,7.17,7.17,7.33,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1050,m
+7.17,7.75,7.58,7.08,7.25,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1200,m
+7.42,7.5,7.5,7.33,7.17,10,Arabica,Costa Rica,Caturra,Washed / Wet,Bluish-Green,1300,m
+7.33,7.42,7.33,7,7.42,10,Arabica,Honduras,Catuai,Natural / Dry,Green,1450,m
+7.42,6.83,7.42,7.42,7.17,10,Arabica,Thailand,Caturra,Washed / Wet,Blue-Green,1450,m
+7.25,7.25,7.25,7.25,7.08,10,Arabica,Philippines,Typica,Natural / Dry,None,1200,m
+7.33,7.58,7.17,7.17,7.33,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Bluish-Green,1550,m
+7.25,7.58,7.25,7.33,7.08,10,Arabica,Malawi,Caturra,Washed / Wet,Green,995,m
+7.25,7.33,7.08,7.33,7.25,10,Arabica,Costa Rica,Catuai,Washed / Wet,Green,1300,m
+7.17,7.42,7.42,7.17,7.42,10,Arabica,Brazil,Catuai,Natural / Dry,Green,NA,m
+7.08,7.42,7.25,7.08,7.75,10,Arabica,Mexico,Typica,Natural / Dry,Green,1800,m
+7.25,7.42,7.25,7.33,7.25,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1450,m
+7.08,7.42,7.33,7.25,7.42,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,1000,m
+7.75,7.25,7.75,7.67,7.67,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.25,7.42,7.33,7.17,7.33,10,Arabica,Ethiopia,NA,Natural / Dry,NA,NA,m
+7.33,7.58,7.42,7.5,7.25,9.33,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,695,m
+7,7.33,7.33,7.33,7.42,10,Arabica,Nicaragua,Other,Washed / Wet,NA,1100,m
+7.17,7.42,7.17,7.33,7.42,10,Arabica,United States,Pache Comun,Natural / Dry,NA,1706.88,ft
+7.17,7.42,7.33,7.33,7.25,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1456,m
+7.17,7.42,7.25,7.17,7.25,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1500,m
+8.5,7.67,7.75,7.67,7.58,10,Arabica,United States (Puerto Rico),Other,Washed / Wet,Green,853.44,ft
+7.25,7.25,7.42,7.33,7.33,10,Arabica,Mexico,Typica,Washed / Wet,None,1650,m
+7.08,7.33,7.25,7.33,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.25,7.33,7.33,7.25,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1642,m
+7.25,7.42,7.33,7.25,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1200,m
+7.33,7.42,7.42,7.25,7.58,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Blue-Green,NA,ft
+7.33,7.25,7.25,7.17,7.5,10,Arabica,Brazil,Bourbon,Pulped natural / honey,Green,NA,m
+7.25,7.42,7.08,7.08,7.33,10,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1450,m
+7.17,7.33,7.17,7.17,7.67,10,Arabica,Brazil,Yellow Bourbon,Pulped natural / honey,Bluish-Green,NA,m
+7.25,7.42,7.25,7.17,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,3280,m
+7.75,7.67,7.5,7.42,5.25,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1600,m
+7.25,7.5,7.25,7,7.25,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7.33,7.25,7.17,7.17,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Bluish-Green,758,m
+7.33,7.42,7.25,7.25,7.33,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1350,m
+7.75,7.67,7.75,7.83,7.75,10,Arabica,Brazil,Mundo Novo,Natural / Dry,Green,NA,m
+7.33,7.33,7.33,7.08,7.42,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1525,m
+7.42,7.33,6.92,7.17,7.33,10,Arabica,Uganda,SL14,Natural / Dry,Green,1700,m
+7.25,7.5,6.92,7.33,7.33,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,1100,m
+7.17,7.33,7.42,7.25,7.42,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.25,7.08,7.33,7.33,7.33,10,Arabica,Mexico,Other,Washed / Wet,Green,950,m
+7.5,7.58,7.67,7.5,7.67,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.25,7.33,7.17,7.25,7.33,10,Arabica,Taiwan,Other,Washed / Wet,Blue-Green,200,m
+7.5,7.67,7.67,7.33,7.58,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1901,m
+5.42,7.17,7.58,7.5,7.5,10,Arabica,Kenya,SL28,Washed / Wet,Green,1600,m
+7.33,7.5,7.33,7.17,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1100,m
+7.42,7.17,7.42,7,7.58,10,Arabica,Myanmar,Other,Other,NA,1066.8,ft
+7.25,7.42,7.08,7.17,7.17,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+7.25,7.33,7.17,7.17,7.25,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Green,1700,m
+7.25,7.25,7.33,7.25,7.25,10,Arabica,Brazil,Yellow Bourbon,Natural / Dry,Green,1200,m
+6.75,7.92,7.67,7.33,7.08,10,Arabica,Taiwan,Typica,Washed / Wet,Green,550,m
+7.33,7.17,7.42,7.17,7.25,10,Arabica,Brazil,Bourbon,Natural / Dry,None,1100,m
+7.33,7.33,7.08,7.25,7,10,Arabica,Nicaragua,Caturra,Washed / Wet,Green,1050,m
+7.08,7.58,7.42,6.92,7.5,10,Arabica,Guatemala,Pacas,Washed / Wet,Green,1524,ft
+7.25,7.42,7.25,7.25,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,NA,900,m
+7.17,7.25,7.17,7.08,7.08,10,Arabica,Taiwan,Typica,Other,Green,688,m
+7.25,7.42,7.25,7.25,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Green,300,m
+7,7.58,7.33,7.08,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1186,m
+6.83,7.67,7.58,7.33,7.33,10,Arabica,Thailand,Peaberry,NA,NA,NA,m
+7.33,7.42,7.33,7.17,7.17,10,Arabica,Laos,Catimor,Washed / Wet,Green,1300,m
+7.08,7.67,7.25,7.08,7.33,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1200,m
+7.33,7.17,7.08,7.25,7.42,10,Arabica,Mexico,Catuai,Semi-washed / Semi-pulped,Green,1210,m
+7.17,7.33,7.25,7.33,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7.25,7.5,7.17,7.33,7.25,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,100,m
+7,7.42,7.33,7,7.25,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Blue-Green,NA,ft
+7.33,7.33,7.33,7,6.83,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.25,7.17,7.25,7.08,7.17,10,Arabica,Brazil,NA,Natural / Dry,Green,NA,m
+7.17,6.92,7.5,7,7.58,10,Arabica,Myanmar,Catuai,Washed / Wet,Green,3825,m
+7.17,7.5,7.33,7,7.42,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1706.88,ft
+7.25,7.25,7.25,7.17,7.25,10,Arabica,Nicaragua,Other,Washed / Wet,Green,110000,m
+7.08,7.5,7.33,7,7.42,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1450,m
+7.17,7.25,7.33,7.17,7.33,10,Arabica,Panama,Caturra,Other,Green,1680,m
+7.17,7.42,7.17,7.08,7.42,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1350,m
+7,7.25,7.33,7.08,7.5,10,Arabica,Honduras,Catuai,Natural / Dry,Green,1450,m
+7.25,7.33,7.33,7.25,7.25,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1300,m
+7.5,7.58,7.33,7.42,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,1200,m
+7.25,7.42,7,7.42,7.25,10,Arabica,Haiti,Typica,Washed / Wet,Green,1000,m
+6.92,7.08,7.33,7.17,7.25,10,Arabica,United States (Hawaii),Arusha,Natural / Dry,Bluish-Green,NA,ft
+7.33,7.33,7.08,7.08,7.08,10,Arabica,Taiwan,Typica,Other,Green,NA,m
+7.33,7.58,7.42,7,7.67,10,Arabica,Indonesia,Mandheling,Semi-washed / Semi-pulped,Blue-Green,1350,m
+7,7.67,7.42,6.83,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1500,m
+8,7.83,7.5,7.67,7.67,10,Arabica,Costa Rica,Caturra,Washed / Wet,Blue-Green,185,m
+7.17,7.5,7.25,7.17,7.17,10,Arabica,Malawi,Caturra,Washed / Wet,Bluish-Green,995,m
+7.25,7.25,7.17,7.17,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,1200,m
+8.5,7.67,7.5,7.42,7.67,6.67,Arabica,Colombia,Caturra,Natural / Dry,NA,1550,m
+7.33,7.67,7.17,7,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1550,m
+7.17,7,7.33,7.5,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.33,7,7.5,7.33,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.25,7.17,7.25,7.08,7.42,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.42,7.33,7.25,7.33,7.08,10,Arabica,Brazil,NA,NA,Green,NA,m
+7.33,7.08,7.5,7,7.25,10,Arabica,Nicaragua,NA,NA,Green,NA,m
+7.25,7.25,7.08,7.08,7.33,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Bluish-Green,1400,m
+7.25,7.42,7.25,7.33,7,10,Arabica,Brazil,Bourbon,Semi-washed / Semi-pulped,Green,1200,m
+7.17,7.5,7.17,7,7.42,10,Arabica,Honduras,Caturra,Washed / Wet,Green,1400,m
+7.25,7.17,7.42,6.83,7.5,10,Arabica,Guatemala,Bourbon,Natural / Dry,Green,1383.792,ft
+7.83,7.42,7.58,7.5,7.92,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.33,7.08,7.25,7,7.5,10,Arabica,Colombia,NA,NA,NA,NA,m
+7.17,7.17,7.17,7.17,7.42,10,Arabica,Taiwan,Other,Natural / Dry,Blue-Green,50,m
+7.25,7.33,7.25,7.08,7.17,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1500,m
+7,7.58,7.33,7,7.17,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1650,m
+7.25,7.25,7.25,7.17,7.17,10,Arabica,Mauritius,NA,NA,Green,280,m
+7.33,7.25,7.33,7.17,7.5,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,Green,1250,m
+7.08,7.17,7.33,7.17,7.42,10,Arabica,Myanmar,Other,Washed / Wet,Green,3800,m
+7.17,7.5,7.17,6.83,7.5,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+7.42,7.42,7.42,7.08,7.33,10,Arabica,Brazil,Yellow Bourbon,Semi-washed / Semi-pulped,None,1250,m
+7.17,7.42,7.33,7.33,7.58,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+6.67,7.5,7.5,7,7.67,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1859.28,ft
+7.17,7.25,7.25,7.08,7.33,10,Arabica,Mexico,Typica,Washed / Wet,None,1450,m
+7,7.25,7.42,7,7.42,10,Arabica,Honduras,NA,NA,Green,1450,m
+7,7.58,7.17,7.17,7.17,10,Arabica,Taiwan,Typica,Washed / Wet,Green,600,m
+7.25,7.33,7.17,7.08,7.08,10,Arabica,El Salvador,Bourbon,Washed / Wet,Green,1450,m
+7.17,7.25,7.08,7.25,7.17,10,Arabica,China,Other,Washed / Wet,Green,1700,m
+7,7.25,7.25,7.17,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Green,600,m
+7.25,6.92,7.17,7.08,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1050,m
+7.08,7.42,7.08,7.08,7.33,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1550,m
+7.33,7.08,7.25,7.17,7.33,10,Arabica,Burundi,NA,NA,Green,1700,m
+7.17,7.25,7.17,7,7.25,10,Arabica,"Tanzania, United Republic Of",Bourbon,Washed / Wet,Green,1700,m
+7.08,7.25,7.17,7.25,7.25,10,Arabica,"Tanzania, United Republic Of",Other,Washed / Wet,Bluish-Green,NA,m
+7,7.25,7.25,7.08,7.25,10,Arabica,Taiwan,Yellow Bourbon,Other,Green,600,m
+7.17,7.33,7.33,6.83,7.5,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.08,7.25,7.08,7.08,7.33,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,940,m
+7.08,7.17,7.5,6.92,7.33,10,Arabica,United States (Hawaii),Hawaiian Kona,Washed / Wet,Green,NA,ft
+7.08,7.25,7.25,7.25,7.33,10,Arabica,Ethiopia,NA,NA,NA,NA,m
+7.25,7.17,7.33,7.42,7.08,10,Arabica,Brazil,Catuai,Natural / Dry,Green,995,m
+7.33,7.25,7.25,7,7,10,Arabica,Honduras,Caturra,Natural / Dry,Green,1400,m
+7.17,7.25,7.17,7,7.33,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1600,m
+6.83,8,7.08,7,7.33,10,Arabica,Myanmar,Other,Natural / Dry,Green,914.4,ft
+7.25,7.42,7,7.08,7,10,Arabica,Myanmar,Catuai,Natural / Dry,Green,4287,m
+7.25,7.08,6.92,7,7.25,10,Arabica,Nicaragua,Caturra,Washed / Wet,Green,900,m
+7.33,7.5,7.08,7.67,7.67,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.58,7.42,8,7.83,7.75,8.67,Arabica,Colombia,Typica,Washed / Wet,Green,NA,m
+7,7.25,7.08,7.25,7.25,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,700,m
+7.25,7,7.17,7.33,7.33,10,Arabica,Guatemala,Caturra,Washed / Wet,Green,1400,m
+7.17,7.58,7.33,7.17,7.25,10,Arabica,Mexico,Caturra,Washed / Wet,None,808,m
+7.25,7.42,7.25,7.25,7.58,10,Arabica,Vietnam,Catimor,Other,NA,1550,m
+7.17,7.17,7.08,7.08,7.33,10,Arabica,Nicaragua,Caturra,Washed / Wet,NA,1187.5,m
+7.33,7.25,7.25,7,7.17,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1400,m
+7,7.33,7.33,7,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.08,7.33,7.08,6.92,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.42,7.58,7.42,7.33,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1550,m
+7,7.33,7.33,7.17,7.08,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1000,m
+7.17,7.33,7.33,7,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.42,7.58,7.5,7.33,7.33,9.33,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.08,7.17,7.17,7,7.17,10,Arabica,Brazil,Bourbon,Pulped natural / honey,Green,1100,m
+7,7.42,7.25,7.25,7.17,10,Arabica,Taiwan,Typica,Washed / Wet,Green,850,m
+7.08,7.25,7.17,6.92,7.25,10,Arabica,Nicaragua,NA,Natural / Dry,Green,NA,m
+7,7.25,7.25,7.25,7.25,10,Arabica,Taiwan,Typica,Other,Green,200,m
+7,7.25,7.25,7.25,7,10,Arabica,Taiwan,Typica,Washed / Wet,Green,150,m
+7,7.25,7.25,7.25,7.08,10,Arabica,Taiwan,Typica,Semi-washed / Semi-pulped,Green,250,m
+7.08,7.33,7.17,7.25,7.08,10,Arabica,Mexico,Typica,Washed / Wet,None,1300,m
+7.08,7.25,7.08,7,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7,7.33,7.08,6.92,7.08,10,Arabica,Nicaragua,Caturra,Washed / Wet,Green,1250,m
+6.92,7.17,7.33,7,7.42,10,Arabica,Myanmar,Other,Washed / Wet,Green,3845,m
+7.42,7.58,7.75,7.42,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7,7.25,7.25,7.25,7,10,Arabica,Taiwan,Typica,Washed / Wet,Green,250,m
+7,7.33,6.67,7.08,7.42,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.25,7.25,7.25,7.08,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.17,7.08,7.33,7,7.33,10,Arabica,Mexico,Other,Washed / Wet,Green,1100,m
+7.75,7.42,7.42,7.5,7.92,8.67,Arabica,Ethiopia,NA,NA,NA,NA,m
+7.42,7.83,7.67,7.58,7.75,10,Arabica,Colombia,NA,Washed / Wet,Green,NA,m
+7,7.5,7,7,6.92,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.17,7.33,7.08,7.08,7.33,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1300,m
+7,7.17,7.17,6.92,7.25,10,Arabica,Mexico,Other,Washed / Wet,Green,1100,m
+6.75,7.5,7.17,7,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,NA,1100,m
+7.33,7.17,7.08,7.08,7.08,10,Arabica,Mexico,Catuai,Washed / Wet,Green,1100,m
+7.25,7.33,7.25,7,7.42,10,Arabica,Mexico,Typica,Natural / Dry,Green,1250,m
+7,7.17,7.33,7.08,7.58,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1250,m
+7.58,7.5,7.42,7.58,7.42,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.08,7,7.08,7,7.17,10,Arabica,Kenya,SL34,Washed / Wet,NA,1500,m
+7.08,7.33,7.25,6.92,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+7.17,6.83,7.17,7.17,6.92,10,Arabica,Nicaragua,Caturra,Washed / Wet,Green,1250,m
+6.83,7.17,7.08,7,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+7.17,7.58,7.08,6.83,7.17,10,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Blue-Green,NA,ft
+7.25,7.5,7.42,7.25,7.58,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,190164,m
+7.33,7.75,7.33,7.17,7.33,8.67,Arabica,Taiwan,Typica,Natural / Dry,NA,1000,m
+7,7.08,7.08,7.25,7,10,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,600,m
+7,7.25,7.08,6.92,7.5,10,Arabica,Thailand,NA,Washed / Wet,Green,800,m
+7.17,7,7.08,7,7.25,10,Arabica,Peru,NA,Washed / Wet,Green,NA,m
+8,7.58,7.5,7.67,7.75,10,Arabica,Costa Rica,Catuai,Washed / Wet,Bluish-Green,1100,m
+6.67,7.58,7.08,7,7,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+6.83,7.58,7.08,6.92,7.58,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1022,m
+7,7.25,7.08,7,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1300,m
+6.92,7.25,7.17,7.17,7.08,10,Arabica,Mexico,Bourbon,Washed / Wet,None,1450,m
+7,7.33,7.25,7,7.08,10,Arabica,Mexico,Typica,Washed / Wet,Green,1050,m
+7.67,7.58,7.33,7.5,7.33,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.33,7.25,6.83,6.92,7.08,10,Arabica,Mexico,Typica,Washed / Wet,NA,1100,m
+7.25,7.42,7.42,7.25,7.58,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7,7.25,7.08,7,6.83,10,Arabica,El Salvador,Bourbon,Washed / Wet,Bluish-Green,1250,m
+7.08,6.92,7.17,6.83,7.42,10,Arabica,Thailand,NA,Washed / Wet,Blue-Green,800,m
+7,7.5,7,6.83,7.08,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.83,7.42,7.25,6.83,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.33,7.33,7.17,7,6.75,10,Arabica,Mexico,Caturra,Washed / Wet,None,975,m
+7.08,6.92,7.17,7.17,7.17,10,Arabica,Mexico,Mundo Novo,Washed / Wet,NA,1264,m
+7.17,7.17,7.17,7,7,10,Arabica,Thailand,Peaberry,NA,NA,NA,m
+6.92,7.08,7,6.92,7.33,10,Arabica,Mexico,Typica,Washed / Wet,None,1250,m
+6.92,7.25,6.92,6.92,7.33,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1550,m
+6.92,7.25,7.17,7,6.75,10,Arabica,Colombia,NA,NA,NA,1800,m
+7.08,7.08,7,6.83,7.33,10,Arabica,Guatemala,NA,NA,NA,1325.88,ft
+7,6.92,6.92,7,7.42,10,Arabica,Nicaragua,Caturra,Natural / Dry,Green,1050,m
+7,6.92,7,7.17,7,10,Arabica,Taiwan,Typica,Natural / Dry,NA,700,m
+7.5,7.83,7.5,7.42,7.42,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1550,m
+7,7.25,7.08,6.92,7.25,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1550,m
+7,7.25,7.33,7,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Bluish-Green,1100,m
+7.42,7.08,7.33,7.25,7.58,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+6.83,7.25,7.33,6.83,7,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+6.83,7,6.83,6.83,7.42,10,Arabica,Mexico,Typica,Washed / Wet,Green,800,m
+7.08,7.42,7.25,6.83,7,10,Arabica,Cote d?Ivoire,NA,Washed / Wet,Bluish-Green,200,m
+7.33,7.42,7.25,6.75,7.25,10,Arabica,Colombia,Caturra,Washed / Wet,Green,1200,m
+6.83,7,7,6.83,7.33,10,Arabica,Mexico,Typica,Washed / Wet,None,950,m
+7,7.42,7.17,7.08,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Green,750,m
+7.17,7.17,6.5,6.33,7.25,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+6.75,7.08,6.83,6.83,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Blue-Green,850,m
+6.92,7,7,6.92,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1000,m
+7.42,7.33,7.42,7.33,7.42,9.33,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1219.2,ft
+7,7.58,7,6.75,6.92,10,Arabica,Honduras,Catuai,Washed / Wet,Green,1650,m
+6.83,7.08,7,6.92,7.42,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1320,m
+6.83,7.25,7.17,6.75,7.25,10,Arabica,Guatemala,Catuai,Washed / Wet,Green,1550,m
+7.33,7.17,7.42,7.5,8,6.67,Arabica,Costa Rica,Catuai,Washed / Wet,None,NA,m
+7.17,7.25,7.08,6.92,7.08,10,Arabica,Mexico,Typica,Washed / Wet,None,1550,m
+6.92,7.17,6.92,6.92,7.08,10,Arabica,Mexico,Typica,Washed / Wet,Green,1450,m
+6.92,6.75,6.75,6.83,7.25,10,Arabica,Mexico,Typica,NA,NA,1200,m
+7.67,7.58,7.67,7.42,7.42,8.67,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1700,m
+6.92,7.42,7.08,6.75,7.33,10,Arabica,United States (Puerto Rico),Other,Washed / Wet,Green,853.44,ft
+6.83,7.33,7,6.92,7.25,10,Arabica,Mexico,Typica,Washed / Wet,None,1500,m
+6.92,7.25,7.08,6.75,7.33,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1100,m
+7.25,7.17,7.25,7.25,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Bluish-Green,1200,m
+7.25,6.75,6.75,6.42,6.83,10,Arabica,NA,NA,NA,NA,NA,m
+6.58,7.33,7.17,6.58,7.42,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+7,7,7,7,7,10,Arabica,Honduras,Pacas,Washed / Wet,Green,1350,m
+7,7.67,7.17,7.08,7.25,9.33,Arabica,Peru,Typica,Washed / Wet,NA,1400,m
+7,6.75,7.08,6.67,7.25,10,Arabica,Mexico,Mundo Novo,Natural / Dry,None,1300,m
+7,7.5,7.17,6.92,7.5,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,Green,1550,m
+6.83,7.17,6.83,6.83,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,12,m
+7,7.33,7,6.75,7.08,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+6.75,7.5,7,6.92,7.08,10,Arabica,Mexico,Typica,Washed / Wet,None,1400,m
+6.75,7.17,7,6.92,7,10,Arabica,Nicaragua,Caturra,Other,Green,1100,m
+7.17,7.5,6.92,6.92,7.25,9.33,Arabica,United States (Hawaii),NA,Natural / Dry,Green,NA,ft
+6.75,7.33,7.08,6.33,7.25,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.67,7.25,6.83,6.83,7,10,Arabica,Mexico,Typica,Washed / Wet,Green,1320,m
+7,7.25,7.33,7.17,7.25,10,Arabica,Mexico,Typica,Semi-washed / Semi-pulped,None,1250,m
+7,7.67,7.17,6.83,7.33,8.67,Arabica,Mexico,Bourbon,Washed / Wet,NA,1350,m
+7.08,7,6.92,6.83,7.17,9.33,Arabica,China,Typica,Washed / Wet,Green,1850,m
+6.83,6.92,6.92,6.67,7.25,10,Arabica,Mexico,Caturra,Washed / Wet,None,1150,m
+6.92,7.08,7,6.75,6.83,10,Arabica,Nicaragua,NA,NA,Green,NA,m
+6.67,6.83,7.08,6.92,6.75,10,Arabica,Nicaragua,NA,Natural / Dry,Green,NA,m
+7.17,7.33,7.17,6.92,7.58,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+6.67,6.83,6.75,7.17,7.25,10,Arabica,Taiwan,Typica,Washed / Wet,Green,800,m
+6.67,7,7,6.75,7.33,10,Arabica,Mexico,Typica,Washed / Wet,Green,1400,m
+7.5,7.92,7.58,7.58,7.92,10,Arabica,Mexico,Typica,Washed / Wet,NA,1300,m
+7.25,7.92,6.83,7.08,7.42,10,Arabica,United States (Hawaii),NA,NA,NA,NA,ft
+7.17,7.25,6.75,6.92,6.92,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1600,m
+6.83,7.08,6.83,6.83,7,10,Arabica,Mexico,Typica,Washed / Wet,None,1400,m
+6.92,7.25,7.17,7,6.83,10,Arabica,Mexico,Caturra,Washed / Wet,Green,1200,m
+6.83,6.83,7,6.92,7.08,10,Arabica,Brazil,Catuai,Natural / Dry,Green,NA,m
+7.17,7.58,7.17,7,7.17,10,Arabica,Mexico,Typica,Washed / Wet,None,1500,m
+7.83,7.5,7.75,7.58,7.83,8.67,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Bluish-Green,NA,ft
+6.67,7.17,6.5,6.67,7,10,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+6.5,7.17,7.17,6.5,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.75,7.25,7.25,7,7.5,10,Arabica,Mexico,Typica,Natural / Dry,Green,1300,m
+7,7.17,6.08,6.17,7.25,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.42,7.5,7.5,7.33,7.58,8.67,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.25,7.42,7.33,7.33,7.5,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+6.83,6.92,6.83,6.92,6.92,10,Arabica,Indonesia,Java,Washed / Wet,NA,1300,m
+6.75,7.08,6.83,6.67,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,1050,m
+7.25,7.5,7.08,7.33,7.17,10,Arabica,Taiwan,Yellow Bourbon,Washed / Wet,Green,650,m
+6.67,6.83,7,6.67,7,10,Arabica,Honduras,Pacas,Natural / Dry,Green,1350,m
+7.33,7.58,7.33,7.5,7.42,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.25,7.42,7.25,6.83,7.33,9.33,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+7.17,7.33,7.17,6.92,7.08,9.33,Arabica,China,Typica,Washed / Wet,Green,1200,m
+6.67,7,6.83,6.83,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7.08,7.25,7.33,7,7,8,Arabica,Mexico,Other,Washed / Wet,Green,850,m
+7.08,7.42,7.17,7,7.17,9.33,Arabica,Colombia,NA,NA,Green,NA,m
+6.83,7.5,7.25,7.42,7,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1200,m
+6.92,7.42,7.25,7,7,10,Arabica,Mexico,Typica,Washed / Wet,Green,1248,m
+7.17,7.17,6.17,6.17,7.08,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,NA,m
+7.17,7.42,7,7,7.17,10,Arabica,Nicaragua,NA,NA,Bluish-Green,1000,m
+6.67,7,6.75,6.67,6.83,10,Arabica,Brazil,NA,Washed / Wet,NA,NA,m
+6.5,7,6.83,6.67,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.67,7.17,6.75,6.58,7.33,10,Arabica,Taiwan,Typica,Washed / Wet,Bluish-Green,775,m
+7.58,7.58,7.67,7.58,7.67,6,Arabica,United States (Hawaii),NA,Natural / Dry,Green,NA,ft
+6.67,7.17,6.75,6.58,6.75,10,Arabica,Mexico,Typica,Washed / Wet,Green,1300,m
+6.17,7.08,6.92,6.33,7,10,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+7,7.5,7.33,7.42,7.58,10,Arabica,Brazil,Bourbon,Natural / Dry,Green,890,m
+6.67,7.33,7,6.83,7.17,9.33,Arabica,Guatemala,Other,Washed / Wet,Green,1219.2,ft
+6.83,7.33,7,6.67,7,10,Arabica,Mexico,Typica,Washed / Wet,None,1500,m
+6.83,6.83,6.83,6.83,6.75,10,Arabica,Haiti,Typica,Washed / Wet,NA,825,m
+6.75,7.08,6.92,6.83,6.67,10,Arabica,United States (Hawaii),NA,Natural / Dry,Green,NA,ft
+6.92,7.08,7,7,7.25,10,Arabica,Mexico,Other,Washed / Wet,Green,1200,m
+7.67,7.42,7.75,7.42,7.67,9.33,Arabica,Peru,Caturra,Washed / Wet,Green,1200,m
+7.42,7.67,7.33,7.17,6.67,6.67,Arabica,India,NA,Natural / Dry,Green,NA,m
+6.58,6.67,6.33,6.42,6.83,10,Arabica,Mexico,Typica,NA,NA,1200,m
+6.5,6.42,6.5,6.5,7.33,10,Arabica,Guatemala,Bourbon,Washed / Wet,None,NA,m
+6.58,7.17,6.58,6.58,7,10,Arabica,Mexico,Typica,Washed / Wet,Green,1100,m
+7,7.5,7,6.83,7.5,8.67,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.17,6.17,6.5,6.5,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,NA,NA,m
+7.08,7.25,7.08,6.83,7.17,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+7.5,7.5,7.33,7.33,7.58,8,Arabica,United States (Hawaii),NA,Natural / Dry,Bluish-Green,NA,ft
+6.75,7.42,7,6.83,7.08,10,Arabica,Mexico,Typica,Washed / Wet,None,1400,m
+6.67,7.33,7,6.5,6.08,9.33,Arabica,Indonesia,Other,Natural / Dry,None,3500,m
+6.58,7.08,6.83,6.83,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1250,m
+7,6.83,6.83,6.67,6.83,10,Arabica,Honduras,Pacas,Natural / Dry,Green,1350,m
+6.67,6.83,6.5,6.5,6.92,9.33,Arabica,Philippines,NA,Washed / Wet,Green,1000,m
+7,7.17,7,6.83,7.5,10,Arabica,Brazil,NA,Natural / Dry,Green,NA,m
+6.83,7.92,7.58,7.17,7.58,8,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.5,6.67,6.5,6.33,7,10,Arabica,Guatemala,Bourbon,Washed / Wet,NA,NA,m
+6.83,7.5,7.25,6.92,7,10,Arabica,Mexico,Pacamara,Washed / Wet,Green,1100,m
+6.58,7.17,6.92,6.67,6.83,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,1200,m
+6.67,7.25,6.83,6.67,7.08,10,Arabica,Mexico,Other,Washed / Wet,NA,1100,m
+6.75,7.17,7.17,6.83,7.17,10,Arabica,Mexico,Typica,Washed / Wet,Bluish-Green,1280,m
+6.75,7,6.92,6.75,6.92,10,Arabica,Mexico,Typica,Washed / Wet,Green,850,m
+6.42,7.08,6.75,6.58,7,10,Arabica,Mexico,Typica,Washed / Wet,None,1500,m
+7,7.33,6.75,6.67,7.25,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+6.33,6.75,6.5,6.17,7,10,Arabica,Guatemala,Bourbon,Washed / Wet,NA,NA,m
+6.42,6.75,6.67,6.17,7.17,10,Arabica,Guatemala,Bourbon,Washed / Wet,NA,NA,m
+6.75,7.08,7,6.83,7.5,10,Arabica,Mexico,Typica,Washed / Wet,Green,1700,m
+7.33,7.5,7.25,7,7.25,6.67,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Blue-Green,NA,ft
+6,6.5,6.33,6.5,7.5,8.67,Arabica,Guatemala,Bourbon,Washed / Wet,Green,1310.64,ft
+6.67,7,6.58,6.67,6.83,10,Arabica,Mexico,Typica,Washed / Wet,Green,1140,m
+6.5,6.92,6.42,6.17,7.33,10,Arabica,Mexico,Typica,Washed / Wet,None,1200,m
+7.08,7.67,7,7.17,7.58,10,Arabica,Mexico,Typica,Washed / Wet,Green,1250,m
+7.33,7.17,7.17,7.17,7.58,6.67,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,NA,NA,ft
+6.67,7.25,6.58,6.58,7,10,Arabica,Brazil,NA,NA,Green,NA,m
+7.08,7,7.17,6.83,7.17,8,Arabica,Honduras,Pacas,Washed / Wet,Green,1350,m
+6.92,7.08,7.08,6.92,7.08,8,Arabica,Mexico,Typica,Washed / Wet,NA,1200,m
+7.33,8,7.33,7.75,7.33,6.67,Arabica,Colombia,NA,Natural / Dry,Bluish-Green,NA,m
+6.92,6.92,6.92,6.92,7.5,9.33,Arabica,United States (Hawaii),Hawaiian Kona,Natural / Dry,Green,NA,ft
+6.42,6.92,6.75,7.08,7.17,8.67,Arabica,Haiti,NA,NA,NA,1020,m
+6.25,6.33,6.5,6.33,6.83,10,Arabica,Costa Rica,Caturra,Washed / Wet,Green,1200,m
+6.58,6.92,6.92,6.92,6.92,10,Arabica,Mexico,Mundo Novo,Washed / Wet,Green,800,m
+6.42,6.5,6.67,6.42,7.17,10,Arabica,Mexico,Bourbon,Washed / Wet,Green,1800,m
+6.75,6.92,7,6.83,6.92,10,Arabica,Mexico,Typica,Washed / Wet,Green,1000,m
+6.67,7,7,6.83,7,10,Arabica,Brazil,NA,Natural / Dry,Green,NA,m
+6.33,6.67,6.5,6.17,6.67,8,Arabica,Honduras,Catuai,Washed / Wet,Green,1450,m
+6.5,7,6.17,6.17,6.67,8,Arabica,Honduras,Catuai,Washed / Wet,Green,1450,m
+6.33,7,6.33,6.17,6.5,8,Arabica,Honduras,Catuai,Washed / Wet,Green,1450,m
+6.75,7.08,6.83,6.25,7.42,10,Arabica,Mexico,Bourbon,Washed / Wet,None,900,m
+6.42,6.75,6.58,6.42,6.67,6,Arabica,Haiti,Typica,Natural / Dry,Blue-Green,350,m
+6.17,7.25,6.58,6.33,6.25,6,Arabica,Nicaragua,Caturra,Other,Green,1100,m
+6.67,7.5,6.67,6.67,7.67,1.33,Arabica,Guatemala,Catuai,Washed / Wet,Green,1417.32,ft
+0,0,0,0,0,0,Arabica,Honduras,Caturra,NA,Green,1400,m
+8,7.83,8.08,7.75,7.92,8,Robusta,Uganda,NA,NA,Green,1488,m
+8,8,7.75,7.92,8,8,Robusta,India,NA,Washed / Wet,NA,3170,m
+8,7.92,7.83,7.92,8,7.83,Robusta,India,NA,NA,Green,1000,m
+8.08,8,7.92,7.92,7.75,7.75,Robusta,Uganda,NA,NA,Green,1212,m
+7.67,8.33,7.83,7.83,7.75,7.58,Robusta,Uganda,NA,NA,Green,1250,m
+7.75,8,7.92,7.67,8,7.75,Robusta,India,NA,NA,Green,3000,m
+7.83,7.67,7.75,7.83,7.83,8,Robusta,India,NA,NA,Green,750,m
+7.92,7.67,7.75,7.83,7.67,7.92,Robusta,India,NA,Washed / Wet,Bluish-Green,3140,m
+7.92,7.67,7.75,7.58,7.83,7.92,Robusta,India,Other,Washed / Wet,Green,1000,m
+7.83,7.67,7.83,7.83,7.83,7.75,Robusta,Uganda,NA,NA,Green,1100,m
+7.83,7.58,7.92,7.75,7.83,7.67,Robusta,Uganda,NA,NA,Green,1095,m
+7.75,7.67,7.83,7.75,7.5,7.75,Robusta,India,Other,Natural / Dry,Green,1000,m
+8.33,7.58,7.58,7.67,7.58,7.5,Robusta,India,NA,NA,Green,750,m
+7.67,8,7.75,7.75,7.58,7.58,Robusta,Uganda,NA,NA,Green,1367,m
+7.75,8,7.67,7.75,7.5,7.58,Robusta,Uganda,NA,NA,Green,1488,m
+7.83,7.75,7.75,7.67,7.67,7.58,Robusta,India,NA,NA,Green,1000,m
+7.83,7.5,7.5,7.25,7.83,7.83,Robusta,India,NA,Natural / Dry,Blue-Green,750,m
+7.58,7.33,7.58,7.5,7.75,7.75,Robusta,Uganda,NA,NA,Green,1600,m
+7.42,7.83,7.58,7.33,7.67,7.75,Robusta,Uganda,NA,NA,Green,1745,m
+7.5,7.75,7.42,7.33,7.58,7.67,Robusta,Uganda,NA,NA,Green,1200,m
+7.5,7.67,7.67,7.5,7.33,7.42,Robusta,India,NA,NA,Bluish-Green,750,m
+7.58,7.58,7.42,7.42,7.83,7.42,Robusta,India,NA,Natural / Dry,Green,750,m
+7.33,7.92,7.5,7.42,7.42,7.58,Robusta,United States,Arusha,Natural / Dry,Green,3000,m
+7.83,7.75,7.58,7.33,7.58,7.75,Robusta,Ecuador,NA,NA,Blue-Green,NA,m
+8.58,7.5,7.67,7.75,7.75,8.42,Robusta,Ecuador,NA,NA,Blue-Green,40,m
+7.17,7.33,7.33,7.17,7.42,7.42,Robusta,United States,NA,Natural / Dry,NA,795,m
+6.92,7.42,6.83,6.75,7.17,7.08,Robusta,India,NA,Natural / Dry,Green,NA,m
+7.92,6.75,6.67,6.5,6.83,6.67,Robusta,Vietnam,NA,Natural / Dry,None,NA,m
