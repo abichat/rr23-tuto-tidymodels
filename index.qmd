@@ -1,0 +1,1156 @@
+---
+title: "Créer un pipeline de machine learning complet avec {tidymodels}"
+author: "Julie Aubert & Antoine Bichat"
+institute: "MIA Paris Saclay X Servier"
+date: today
+date-format: "[Rencontres R 2023 – Avignon]"
+format:
+  revealjs:
+    logo: "img/logos_servier_miaps.png"
+    footer: "Rencontres R 2023 – Avignon"
+    slide-number: c
+    width: 1280
+    height: 720
+    theme: rr23.scss
+    include-after-body: clean_title_page.html
+    scrollable: true
+title-slide-attributes:
+  data-background-image: "img/avignon.jpg"
+  data-background-size: cover
+  data-background-opacity: "0.4"
+  data-background-color: "#ffffff"    
+knitr: 
+  opts_chunk:
+    fig.align: center
+execute: 
+  echo: true
+  warning: false
+---
+
+## Plan
+
+- Introduction
+
+- Jeu de données
+
+- Construire un modèle avec `{parsnip}`
+
+- Pré-traiter les données avec `{recipes}`
+
+- Evaluer son modèle avec `{rsample}` et `{yardstick}`
+
+- Optimiser les paramètres du modèle avec `{tune}` ou `{finetune}`
+
+- Construire un ou plusieurs workflows avec `{workflows}` et `{workflowsets}`
+
+<!-- - Aller plus loin -\> intégrer de nouvelles méthodes ou développer ses propres outils workflowsets (pour comparer et classer les modèles) et créer un modèle d'ensemble ? -->
+
+## Julie Aubert {.smaller}
+
+:::: {.columns}
+::: {.column width="80%"}
+Ingénieure de recherche en statistiques 
+
+- Développement et application de méthodes statistiques
+en environnement et sciences du vivant 
+- R, omiques, écologie microbienne
+![](img/nuage_mots.png){.absolute top="280" left="50" height=600}
+:::
+
+::: {.column width="20%"}
+<img class="circular-square" src="img/ja.jpg" />
+
+![](img/logo_miaps_inrae.png)
+:::
+::::
+
+
+
+
+## Antoine Bichat {.smaller}
+:::: {.columns}
+::: {.column width="80%"}
+Data scientist chez Servier
+
+* Analyses exploratoires
+
+* Oncologie, cancers pédiatriques
+
+* R, packages, applications
+:::
+
+::: {.column width="20%"}
+<img class="circular-square" src="img/ab.jpg" />
+
+![](img/logo_servier.png)
+:::
+::::
+
+
+## Un peu de pub pour nos collègues
+
+::: {.callout-note appearance="simple" icon=false}
+
+- 21/06 à 14h40 B. Chassagnol, `{DeCovarT}`
+- 21/06 à 17h J. Chiquet, Utilisation de quarto pour le journal Computo
+- 22/06 à 09h50 T. Vanrenterghem, `{ShinySBM}`
+:::
+
+
+## Contenu du tutoriel {auto-animate="true"}
+
+### Ce que ce tutoriel n'est pas
+
+- Un tutoriel sur R ou sur le tidyverse
+
+- Un cours de machine learning ou d'inférence statistique
+
+## Contenu du tutoriel {auto-animate="true"}
+
+###  Ce que ce tutoriel n'est pas
+
+- Un tutoriel sur R ou sur le tidyverse
+
+- Un cours de machine learning ou d'inférence statistique
+
+:::: {.columns}
+::: {.column width="80%"}
+
+### Ce que ce tutoriel est
+
+- Un tutoriel sur comment utiliser des méthodes de ML dans l'écosystème `{tidymodels}`
+
+
+:::
+::: {.column width="20%"}
+<img src="img/hex_tidymodels.png" height="200" />
+:::
+::::
+
+## Machine learning {.smaller}
+
+![Crédit : <https://apreshill.github.io/tidymodels-it/>](img/MLmap.jpeg)
+
+## Ecosystème `{tidymodels}`
+
+<center><iframe src="https://tidymodels.org" width="100%" height="650px"></iframe></center>
+
+## Naviguer dans l'écosystème {.smaller}
+
+### Différentes façons de faire
+
+- Ajuster un modèle seulement (`{parsnip}`).
+
+- Utiliser un workflow (intégration étapes de pré-traitement et modèlisation) (`{workflows}`).
+
+- Optimiser des hyperparamètres (`{tune}`).
+
+- Comparer plusieurs workflows (`{workflowsets}`).
+
+### Avantages
+
+- Format/notation/workflow standardisé pour différents algos/méthodes.
+
+- Encapsule les différentes parties (notamment estimation test/train) dans un même objet.
+
+- Étapes de prétraitement, choix de modèles, optimisation d'hyperparamètres facilités.
+
+- Très modulable, chaque étape correspond à un package.
+
+
+## Packages et options
+
+```{r load-packages}
+#| message: false
+# install.packages(c("tidyverse", "tidymodels",      # metapackages
+#                    "glmnet", "ranger", "xgboost",  # modèles
+#                    "finetune", "corrr", "vip",     # facilitateurs
+#                    "ggforce", "ggrain"))           # dataviz
+
+library(tidyverse) 
+library(tidymodels)
+
+theme_set(theme_light())
+options(pillar.print_min = 6)
+```
+
+
+## Données {background-image="img/cupping.jpg" background-opacity=0.2 .smaller}
+
+Jeu de données de dégustation de café [Coffee Quality Database](https://github.com/jldbc/coffee-quality-database), fourni par James LeDoux à partir de pages de revues du [Coffee Quality Institute](https://database.coffeeinstitute.org/).
+
+<br>
+
+Données `data_coffee.csv` disponibles sur le dépôt GitHub [abichat/rr23-tuto-tidymodels](https://github.com/abichat/rr23-tuto-tidymodels).
+
+<br>
+
+**Objectif**
+
+Prédire `cupper_points` (score de 0 à 10) à partir de variables :
+
+* de caractéristiques aromatiques et gustatives (`aroma`, `flavor`, `aftertaste`...)
+
+* de caractéristiques des grains (`species`, `color`...)
+
+* de caractéristiques environnementales (`country`, `altitude`...)
+
+
+## Importation des données 
+
+
+```{r get-data}
+coffee_raw <- read_csv("data_coffee.csv")
+coffee_raw
+```
+
+## À votre tour
+
+Familiarisez-vous avec le jeu de données `coffee_raw`. Y a-t-il des observations aberrantes ou des variables à adapter ?
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 10, seconds = 0,
+                     left = "30%", right = "30%", bottom = "30%")
+```
+
+## Solution
+
+::: panel-tabset
+#### Notes
+
+```{r}
+#| code-fold: true
+coffee_raw %>% 
+  select(cupper_points:acidity) %>% 
+  pivot_longer(everything()) %>% 
+  ggplot() +
+  aes(x = value, y = name, fill = name) +
+  geom_violin() +
+  geom_boxplot(alpha = 0) +
+  ggforce::geom_sina(size = 0.5) +
+  labs(x = "Note", y = NULL) +
+  theme(legend.position = "none")
+```
+
+#### Altitude
+
+```{r}
+#| code-fold: true
+ggplot(coffee_raw) +
+  aes(x = unit, y = altitude, color = unit) +
+  ggrain::geom_rain() +
+  scale_y_log10() +
+  labs(x = "Unité", y = "Altitude") +
+  theme(legend.position = "none")
+```
+
+#### Correlations
+
+```{r cor}
+#| code-fold: true
+library(corrr)
+coffee_raw %>% 
+  select(where(is.numeric)) %>% 
+  correlate(method = "pearson", use = "complete.obs") %>%
+  shave() %>% 
+  rplot(print_cor = TRUE)
+```
+:::
+
+## Nettoyage des données
+
+```{r}
+coffee <-
+  coffee_raw %>% 
+  filter(if_all(cupper_points:acidity, ~ . > 4)) %>% 
+  mutate(across(where(is.character), as_factor),
+         altitude = if_else(unit == "ft", altitude * 0.3048, altitude),
+         altitude = if_else(altitude > 8000, NA, altitude))
+coffee
+```
+
+## Spécifier un modèle avec `{parsnip}`
+
+![Crédit : [Allison Horst](https://allisonhorst.com/r-packages-functions/)](img/parsnip.png)
+
+## Spécifier un modèle avec `{parsnip}` {.smaller}
+
+:::: {.columns}
+::: {.column width="80%"}
+1. Un `model` (`rand_forest()`, `linear_reg()`...)
+
+2. Un `engine` (`ranger`, `randomForest`...)
+
+3. Un `mode` (`regression`, `classification`...)
+
+4. Des hyperparamètres (`trees`, `penalty`...)
+
+:::
+::: {.column width="20%"}
+<img src="img/hex_parsnip.png" height="200" />
+:::
+::::
+
+
+## Tous les modèles
+
+<https://www.tidymodels.org/find/parsnip/>
+
+<center><iframe src="https://www.tidymodels.org/find/parsnip/" width="100%" height="600px"></iframe></center>
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Création du modèle
+
+```{r}
+linear_reg(mode = "regression", engine = "lm")
+```
+
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Estimation du modèle
+
+```{r}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee)
+```
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Prédiction
+
+```{r}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  predict(coffee)
+```
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Statistiques et anova de type I
+
+```{r}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  extract_fit_engine() %>% # besoin d'extraire l'objet lm
+  summary()
+```
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Anova de type I en format tidy
+
+```{r}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  # extract_fit_engine() %>% # pas nécessaire
+  tidy() 
+```
+
+## Que faire avec `{parsnip}` ? {auto-animate="true"}
+
+Importance des variables
+
+```{r}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  vip::vip()
+```
+
+## Changement de modèle 
+
+::: panel-tabset
+#### Régression linéaire
+
+```{r lm}
+linear_reg(mode = "regression", engine = "lm") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  predict(coffee)
+```
+
+#### Forêt aléatoire
+
+```{r rf}
+rand_forest(mode = "regression", engine = "ranger") %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  predict(coffee)
+```
+
+#### XGBoost
+
+```{r xgb}
+boost_tree(mode = "regression", engine = "xgboost") %>%
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>%
+  predict(coffee)
+```
+
+#### Elastic net
+
+```{r en}
+linear_reg(mode = "regression", engine = "glmnet", 
+           penalty = 0.1, mixture = 0.5) %>% 
+  fit(cupper_points ~ aroma + flavor + species, data = coffee) %>% 
+  predict(coffee)
+```
+:::
+
+## Rééchantillonnage avec `{rsample}` {.smaller}
+
+:::: {.columns}
+::: {.column width="80%"}
+Intérêt principal : éviter le sur-ajustement.
+
+Utilisation ici pour **évaluer les performances** de modèle dans le cadre d'un jeu "hold-out"
+
+Différents types de rééchantillonnage et classes d'objet associées 
+
+- class `rsplit` pour des rééchantillonnages individuels 
+
+- class `rset` pour une collection de rééchantillonnage 
+
+:::
+::: {.column width="20%"}
+<img src="img/hex_rsample.png" height="200" />
+:::
+::::
+
+## Schéma classique {auto-animate="true"} 
+
+![Crédit : [_Feature Engineering and Selection_, Max Kuhn et Kjell Johnson](https://bookdown.org/max/FES)](img/resampling.svg)
+
+::: {.callout-note appearance="simple"  icon=false}
+- dans le cas `rset`, on parle d'`analysis` et d'`assessment` plutôt que de `training` et `testing`
+
+- pas de copie de données modifiées 
+:::
+
+
+## Dépenser le budget données
+
+```{r split-data}
+set.seed(123)
+cf_split <- initial_split(coffee, strata = "species", prop = 3/4)
+cf_split
+```
+
+## Ensembles d'apprentissage et de test
+
+::: panel-tabset
+#### Apprentissage
+
+```{r}
+cf_train <- training(cf_split)
+cf_train
+```
+
+#### Test
+
+```{r}
+cf_test <- testing(cf_split)
+cf_test
+```
+:::
+
+## Données de validation croisée 
+
+```{r}
+set.seed(234)
+cf_cv <- vfold_cv(cf_train, v = 10, repeats = 1) 
+cf_cv
+```
+
+## Données de validation croisée 
+
+```{r}
+first_resample <- cf_cv$splits[[1]]
+analysis(first_resample) # premier jeu qui servira pour l'apprentissage
+assessment(first_resample) # jeu complémentaire pour la partie test
+```
+
+## Prétraitement avec `{recipes}`
+
+![Crédit : [Allison Horst](https://allisonhorst.com/r-packages-functions/)](img/recipes.png)
+
+## Prétraitement avec `{recipes}`
+
+:::: {.columns}
+::: {.column width="80%"}
+
+- Gérer les données manquantes, les erreurs, les données aberrantes.
+
+- Créer de nouvelles variables en transformant ou combinant des variables existantes.
+
+- Normaliser ou encoder différemment des variables existantes.
+
+- Dans un ordre défini par des fonctions `step_*()`.
+:::
+
+::: {.column width="20%"}
+<img src="img/hex_recipes.png" height="200" />
+:::
+::::
+
+
+## Toutes les recettes
+
+<https://www.tidymodels.org/find/recipes/>
+
+<center><iframe src="https://www.tidymodels.org/find/recipes/" width="100%" height="550px"></iframe></center>
+
+
+## Prétraitement des données {auto-animate="true"}
+
+Initialisation de la recette : formule et jeu de données d'entraînement.
+
+```{r}
+#| message: true
+recipe(cupper_points ~ ., data = cf_train) 
+```
+
+## Prétraitement des données numériques {auto-animate="true"}
+
+Ajout des différentes étapes.
+
+```{r}
+#| message: true
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_normalize(all_numeric_predictors()) # centre et réduit
+```
+
+## Prétraitement des données numériques {auto-animate="true"}
+
+Estimation des paramètres du prétraitement.
+
+```{r}
+#| message: true
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  prep()
+```
+
+## Prétraitement des données numériques {auto-animate="true"}
+
+Application de la recette sur `cf_train`.
+
+```{r}
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  prep() %>% 
+  bake(new_data = NULL)
+```
+
+## Prétraitement des données numériques {auto-animate="true"}
+
+On vérifie que les données sont centrées-réduites.
+
+```{r}
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_normalize(all_numeric_predictors()) %>% 
+  prep() %>% 
+  bake(new_data = NULL) %>% 
+  summarise(across(c(aroma, flavor, aftertaste), 
+                   list(mean = mean, sd = sd))) 
+```
+
+## Prétraitement des données catégorielles {auto-animate="true"}
+
+```{r}
+#| message: true
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_unknown(all_nominal_predictors()) %>% # transforme les NA en "unknown"
+  step_dummy(all_nominal_predictors()) %>% # variables binaires exclusives
+  prep() 
+```
+
+
+## Prétraitement des données catégorielles {auto-animate="true"}
+
+```{r}
+recipe(cupper_points ~ ., data = cf_train) %>% 
+  step_unknown(all_nominal_predictors()) %>% 
+  step_dummy(all_nominal_predictors()) %>% 
+  prep() %>% 
+  bake(new_data = NULL) %>% 
+  select(starts_with(c("species", "color")))
+```
+
+## À votre tour
+
+En utilisant les étapes disponibles dans `{recipes}` (<https://recipes.tidymodels.org/reference>), déterminer un prétaitement adéquat pour `cf_train`.
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 7, seconds = 0,
+                     left = "30%", right = "30%", bottom = "30%")
+```
+
+## Solution
+
+::: panel-tabset
+#### Définition
+
+```{r}
+cf_rec <-
+  recipe(cupper_points ~ ., data = cf_train) %>% 
+  update_role(unit, new_role = "notused") %>% 
+  step_unknown(variety, processing_method, country_of_origin,
+               color, new_level = "unknown") %>%
+  step_other(country_of_origin, threshold = 0.01) %>%
+  step_other(processing_method, variety, threshold = 0.1) %>%
+  step_impute_linear(altitude, 
+                     impute_with = imp_vars(country_of_origin)) %>% 
+  step_dummy(all_nominal_predictors()) %>% 
+  step_impute_median(all_numeric_predictors()) %>% 
+  step_normalize(all_numeric_predictors())
+```
+
+#### Aperçu
+
+```{r}
+#| message: true
+cf_rec
+```
+
+#### Estimation
+
+```{r}
+#| message: true
+prep(cf_rec)
+```
+
+#### Traitement
+
+```{r}
+cf_rec %>% 
+  prep() %>% 
+  bake(new_data = NULL)
+```
+:::
+
+## Assembler dans un workflow {.smaller}
+
+:::: {.columns}
+::: {.column width="80%"}
+
+Simplifier les étapes en associant le modèle et la recette ensemble.
+
+Un seul objet à manipuler pour différentes étapes :
+
+* estimation des paramètres du prétraitement sur l'ensemble d'apprentissage,
+
+* estimation des paramètres du modèle sur l'ensemble d'apprentissage,
+
+* application du prétraitement sur l'ensemble de test,
+
+* prédiction et evaluation du modèle sur l'ensemble de test,
+
+* voir plus si validation croisée.
+
+:::
+
+::: {.column width="20%"}
+<img src="img/hex_workflows.png" height="200" />
+:::
+::::
+
+## Evaluer son workflow avec `{yardstick}` {.smaller}
+
+:::: {.columns}
+::: {.column width="80%"}
+
+Ensemble de fonctions pour estimer la qualité du modèle.
+
+* en entrée : un data frame, la colonne des vraies valeurs et la colonne des prédictions,
+
+* en sortie : un data frame avec les différentes métriques demandées.
+
+:::
+
+::: {.column width="20%"}
+<img src="img/hex_yardstick.png" height="200" />
+:::
+::::
+
+<https://yardstick.tidymodels.org/reference/>
+
+<center><iframe src="https://yardstick.tidymodels.org/reference/" width="100%" height="300px"></iframe></center>
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg())
+```
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg()) %>% 
+  fit(cf_train)
+```
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg()) %>% 
+  fit(cf_train) %>% 
+  predict(cf_train)
+```
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg()) %>% 
+  fit(cf_train) %>% 
+  predict(cf_test) 
+```
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg()) %>% 
+  fit(cf_train) %>% 
+  predict(cf_test) %>% 
+  bind_cols(cf_test)
+```
+
+## Utilisation du workflow {auto-animate="true"}
+
+```{r}
+workflow(preprocessor = cf_rec, 
+         spec = linear_reg()) %>% 
+  fit(cf_train) %>% 
+  predict(cf_test) %>% 
+  bind_cols(cf_test) %>% 
+  rmse(truth = cupper_points, estimate = .pred)
+```
+
+## À votre tour
+
+En utilisant la fonction `tune::last_fit()`, estimer le RMSE pour un modèle de forêt aléatoire et visualiser la correlation entre `cupper_points` et `cupper_points` prédits sur les données de test.
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 7, seconds = 0,
+                     left = "30%", right = "30%", bottom = "30%")
+```
+
+## Solution
+
+::: panel-tabset
+#### Forêts aléatoires
+
+```{r}
+cf_lf_rf <-
+  workflow(preprocessor = cf_rec, 
+           spec = rand_forest(mode = "regression")) %>% 
+  last_fit(cf_split)
+cf_lf_rf
+```
+
+#### RMSE
+
+```{r}
+collect_metrics(cf_lf_rf)
+```
+
+#### Visualisation
+
+```{r}
+cf_lf_rf %>% 
+  collect_predictions() %>% 
+  ggplot() +
+  aes(x = cupper_points, y = .pred) +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "grey") +
+  geom_point()
+```
+:::
+
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+2. Créer une recette de prétraitement.
+
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+2. Créer une recette de prétraitement.
+
+3. Associer modèle et recette dans un workflow.
+
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+2. Créer une recette de prétraitement.
+
+3. Associer modèle et recette dans un workflow.
+
+4. Entraîner le workflow grâce à un appel à la fonction `fit()`.
+
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+2. Créer une recette de prétraitement.
+
+3. Associer modèle et recette dans un workflow.
+
+4. Entraîner le workflow grâce à un appel à la fonction `fit()`.
+
+5. Utiliser le workflow entraîné pour prédire à partir de données non vues avec `predict()`.
+
+## Utiliser son workflow pour faire de la prédiction {auto-animate="true"}
+
+1. Construction du modèle.
+
+2. Créer une recette de prétraitement.
+
+3. Associer modèle et recette dans un workflow.
+
+4. Entraîner le workflow sur l'ensemble d'entraînement et prédire sur l'ensemble de test avec `last_fit()`.
+
+
+## Optimiser les hyperparamètres avec `{tune}`
+
+
+:::: {.columns}
+::: {.column width="80%"}
+
+Certains prétraitements et modèles demandent de choisir des hyperparamètres :
+
+* `penalty`, et `mixture` pour `linear_reg()`
+
+* `trees`, `mtry` et `min_n` pour `rand_forest()`
+
+* `threshold` pour `step_other()`
+
+* ...
+:::
+
+::: {.column width="20%"}
+<img src="img/hex_tune.png" height="200" />
+:::
+::::
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+#| eval: false
+rand_forest(mode = "regression", trees = 500, mtry = 5, min_n = 5)
+```
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+#| eval: false
+rand_forest(mode = "regression", trees = 500, mtry = 5, min_n = 5)
+rand_forest(mode = "regression", trees = 1000, mtry = 3, min_n = 10)
+```
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+#| eval: false
+rand_forest(mode = "regression", trees = 500, mtry = 5, min_n = 5)
+rand_forest(mode = "regression", trees = 1000, mtry = 3, min_n = 10)
+rand_forest(mode = "regression", trees = tune(), mtry = tune(), min_n = tune())
+```
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+rf_tune <-
+  rand_forest(mode = "regression", engine = "ranger",
+              trees = 500, mtry = tune(), min_n = tune())
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+rf_tune <-
+  rand_forest(mode = "regression", engine = "ranger",
+              trees = 500, mtry = tune(), min_n = tune())
+
+wkf_rf_tune <- workflow(preprocessor = cf_rec, spec = rf_tune) 
+wkf_rf_tune
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+set.seed(345)
+res_tune <- tune_grid(wkf_rf_tune, cf_cv, grid = 15, 
+                      control = control_grid(verbose = FALSE))
+res_tune
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+autoplot(res_tune)
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+collect_metrics(res_tune) %>%
+  filter(.metric == "rmse") %>%
+  ggplot() +
+  aes(x = mtry, y = min_n, color = mean, size = mean) +
+  geom_point()
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+show_best(res_tune, metric = "rmse")
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+param_rf <- select_best(res_tune, metric = "rmse")
+param_rf
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+wkf_rf_tune
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+wkf_rf_tune %>%
+  finalize_workflow(param_rf)
+```
+
+
+## Comment choisir ses hyperparamètres ? {auto-animate="true"}
+
+```{r}
+wkf_rf_tune %>%
+  finalize_workflow(param_rf) %>%
+  last_fit(cf_split) %>% 
+  collect_metrics()
+```
+
+
+## À votre tour
+
+En utilisant la fonction `finetune::tune_race_anova()`, optimiser les hyperparamètres d'une régression régularisée "elastic net". 
+
+```{r}
+#| echo: false
+countdown::countdown(minutes = 7, seconds = 0,
+                     left = "30%", right = "30%", bottom = "30%")
+```
+
+
+## Solution
+
+::: panel-tabset
+#### Course
+
+```{r}
+library(finetune)
+wkf_en_tune <- 
+  workflow(preprocessor = cf_rec, 
+           spec = linear_reg(penalty = tune(), mixture = tune(),
+                             engine = "glmnet")) 
+set.seed(456)
+res_race <- tune_race_anova(wkf_en_tune, resamples = cf_cv, grid = 10,
+                            control = control_race(verbose = FALSE,
+                                                   verbose_elim = FALSE))
+```
+
+#### Aperçu
+
+```{r}
+res_race
+```
+
+#### Gain de temps
+
+```{r}
+plot_race(res_race) # + facet_wrap(~ .config)
+```
+
+#### Métriques
+
+```{r}
+wkf_en_tune %>% 
+  finalize_workflow(select_best(res_race, "rmse")) %>% 
+  last_fit(cf_split) %>% 
+  collect_metrics()
+```
+
+#### Importance
+
+```{r}
+wkf_en_tune %>% 
+  finalize_workflow(select_best(res_race, "rmse")) %>% 
+  last_fit(cf_split) %>% 
+  extract_fit_engine() %>% 
+  vip::vip(mapping = aes(fill = Sign))
+```
+
+:::
+
+
+## Utiliser son workflow pour optimiser ses hyperparamètres {auto-animate="true"}
+
+1. Créer un workflow avec des paramètres à optimiser dans le modèle et/ou la recette.
+
+
+## Utiliser son workflow pour optimiser ses hyperparamètres {auto-animate="true"}
+
+1. Créer un workflow avec des paramètres à optimiser dans le modèle et/ou la recette.
+
+2. Entraîner et évaluer le modèles sur les différents jeux de données analysis/assessment de validation croisée avec `tune_grid()` ou équivalent.
+
+
+## Utiliser son workflow pour optimiser ses hyperparamètres {auto-animate="true"}
+
+1. Créer un workflow avec des paramètres à optimiser dans le modèle et/ou la recette.
+
+2. Entraîner et évaluer le modèles sur les différents jeux de données analysis/assessment de validation croisée avec `tune_grid()` ou équivalent.
+
+3. Récupérer le workflow ayant la meilleure combinaison d'hyperparamètres avec `select_best()` ou équivalent.
+
+
+## Tout comparer avec `{workflowsets}` 
+
+Combiner dans un seul objet différentes recettes et modèles
+
+```{r}
+all_models <- 
+   workflow_set(
+      preproc = list(normalized = cf_rec),
+      models = list(lm = linear_reg(), 
+                    rf = rand_forest(mode = "regression"), 
+                    tuned_rf = rand_forest(mode = "regression", trees = 500,
+                                           mtry = param_rf$mtry, min_n = param_rf$min_n), 
+                    boost_tree = boost_tree(mode = "regression", engine = "xgboost")),
+      cross = TRUE)
+all_models
+```
+
+
+## Tout comparer avec `{workflowsets}` 
+
+```{r}
+all_models %>% 
+  extract_workflow(id = "normalized_rf")
+```
+
+
+## Tout comparer avec `{workflowsets}` 
+
+```{r}
+set.seed(567)
+res_all_models <- 
+   all_models %>% 
+   workflow_map(fn = "fit_resamples", resamples = cf_cv)
+res_all_models
+```
+
+
+## Tout comparer avec `{workflowsets}` 
+
+```{r}
+autoplot(res_all_models)
+```
+
+
+## Tout comparer avec `{workflowsets}` 
+
+```{r}
+rank_results(res_all_models, 
+             rank_metric = "rmse", # <- how to order models
+             select_best = TRUE   # <- one point per workflow
+             ) %>% 
+  select(rank, wflow_id, .metric, mean)
+```
+
+
+## Aller plus loin {.smaller}
+
+- 24 packages aujourd'hui : 
+
+  * recettes spécifiques (`{embed}`, `{themis}`...)
+  * modèles spécifiques (`{multilevelmod}`, `{modeltime}`, `{poissonreg}`...)
+  * modes spécifiques (`{censored}`)
+  * travailler avec des données spécifiques (`{textrecipes}`, `{spatialsample}`...)
+  * raffinement des pipelines (`{desirability2}`, `{stacks}`...)
+
+- Possibilité d'intégrer :
+
+  * sa propre recette
+  * son propre modèle
+  * sa propre métrique
+
+
+## Références {.smaller}
+
+Documentation officielle <https://www.tidymodels.org>
+
+Articles de blog <https://www.tidyverse.org/tags/tidymodels>
+
+Livre _Tidy Modeling with R_, Max Kuhn et Julia Silge <https://www.tmwr.org> (version en ligne gratuite)
+
+Livre _Feature Engineering and Selection_, Max Kuhn et Kjell Johnson <https://bookdown.org/max/FES> (version en ligne gratuite)
+
+<center>
+![](img/tmwr.png){height=300} ![](img/fes.jpeg){height=300}
+</center>
+
+Sur la dégustation de café
+<https://nomadbarista.com/cupping-cafe-ou-la-degustation-du-cafe/>
+
+## Traçabilité
+
+```{r}
+sessionInfo()
+```
+
+## {background-image="img/fond_hex.png" background-opacity=0.5}
+
+<br> <br> <br> <br>
+
+::: {.r-fit-text .last-title}
+Merci pour votre attention !
+:::
+
+[Slides made with Quarto]{.bottomright}
+
+
+

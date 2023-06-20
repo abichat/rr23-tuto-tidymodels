@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+/*-- scss:defaults --*/
+
+$bleurr: #2568b0;
+$jaunerr: #fdc538;
+
+$body-color: $bleurr !default;
+$link-color: $jaunerr !default;
+$presentation-heading-color: $jaunerr !default;
+
+$font-family-sans-serif: 'Muli', serif !default;
+$presentation-heading-font: 'Muli' !default;
+
+$tabset-border-color: #bbb;
+
+/*-- scss:rules --*/
+
+.title {
+  font-size: 90px !important;
+  color: $bleurr !important;
+  text-shadow: 2px 2px #666666 !important;
+}
+
+.quarto-title-author-name {
+  color: $jaunerr !important;
+  text-shadow: 2px 2px $bleurr;
+}
+
+.quarto-title-affiliation {
+  color: $jaunerr !important;
+  text-shadow: 2px 2px $bleurr;
+}
+
+.date {
+  color: $jaunerr !important;
+  text-shadow: 2px 2px $bleurr;
+}
+
+.last-title {
+  color: $bleurr;
+  text-align: right;
+  text-shadow: 2px 2px $jaunerr !important;
+  rotate: z -7deg;
+}
+
+.bottomright {
+  background-color: $jaunerr;
+  font-size: 20px;
+  color: $bleurr;
+  position: absolute;
+  bottom: 40px;
+  margin-left: 80%;
+}
+
+.circular-square {
+  border-radius: 50%;
+}

@@ -1,4 +1,5 @@
-# tidymodels : créer un pipeline de machine learning complet avec {tidymodels}
+# tidymodels : créer un pipeline de machine learning complet avec {tidymodels} <a href="https://rr2023.sciencesconf.org"><img src="img/hex_rr23.png" align="right" height="138"/></a>
+
 
 Dépôt du tutoriel donné aux [Rencontres R 2023 à Avignon](https://rr2023.sciencesconf.org)
 
